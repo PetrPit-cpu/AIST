@@ -1,0 +1,177 @@
+/*фоновое изображение*/
+
+.donwload__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 763px;
+    height: auto;
+    background-image: url(/img/Фон-скачайте-приложение.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+/*заголовок*/
+
+.download__title {
+    margin: 0;
+}
+
+.download__text {
+    font-size: 20.7px;
+}
+
+.dowload__content {
+    max-width: 1127px;
+    padding-top: 40px;
+}
+
+.download__items-block {
+    margin-left: 350px;
+    margin-bottom: 25px;
+    padding: 20px 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.download__single-color {
+    font-weight: 700; /* Задаем жирный текст */
+    font-size: 50.7px; /* Убедитесь, что размер текста соответствует родительскому */
+    color: #0d4cf3; /* Цвет для слова СКАЧАЙТЕ */
+}
+
+.download__gradient-text {
+    font-weight: 700; /* Задаем жирный текст */
+    font-size: 50.7px; /* Убедитесь, что размер текста соответствует родительскому */
+    background: linear-gradient(to right, #f67109, #0d4cf3); /* Градиент от #0d4cf3 к #f67109 */
+    -webkit-background-clip: text; /* Клипирование фона по форме текста */
+    color: transparent; /* Делаем текст прозрачным */
+}
+
+.download__text {
+    color: #353b41;
+}
+
+.download__items-block-aist {
+    display: flex;
+    flex-direction: column;
+    max-width: 1460px; /*415*/
+    margin-left: 350px;
+}
+
+.download__img-aist {
+    margin-bottom: 55px;
+    max-width: 405px;
+    height: 100%;
+}
+
+.download__btn {
+    padding: 17px 71px;
+    border: none;
+    background-color: #0d4cf3;
+    border-radius: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+#download__btn {
+    position: relative;
+}
+
+#download__btn::after {
+    content: ""; /* Создаём псевдоэлемент */
+    position: absolute; /* Абсолютное позиционирование внутри кнопки */
+    top: 0; /* Расположение относительно верхней границы кнопки */
+    left: 0; /* Расположение относительно левой границы кнопки */
+    width: 100%; /* Покрываем всю ширину кнопки */
+    height: 100%; /* Покрываем всю высоту кнопки */
+    background-image: url('/img/Тень-скачайте.png'); /* Путь к изображению */
+    background-size: contain; /* Масштабируем фон под размеры кнопки */
+    background-repeat: no-repeat; /* Избегаем повторения изображения */
+    z-index: 9999; /* Задаём z-index для расположения псевдоэлемента выше фона кнопки */
+    pointer-events: none; /* Псевдоэлемент должен быть некликабельным */
+}
+
+.dowload__square {
+    margin-left: 410px;
+    width: 30px; /* Ширина квадрата */
+    height: 30px; /* Высота квадрата */
+    background-color: #0d4cf3; /* Цвет квадрата */
+    border-radius: 10px;
+}
+
+.dowload__app {
+    width: 188px;
+    height: 50px;
+}
+
+.download__items-app-google {
+    gap: 39px;
+    max-width: 415px;
+}
+
+.download__google,
+.download__apple {
+    width: 188px;
+    height: 50px;
+}
+
+.download__img {
+    width: 200px;
+    height: 50px;
+    margin-left: 292px;
+}
+
+.download__carriers {
+    margin-left: 300px;
+}
+
+.download__list_block-one {
+    flex-direction: column;
+}
+
+.download__iphone {
+    padding: 0;
+}
+
+.download__iphone-1-img {
+    transform: translate(-12px, -100px);
+    margin-left: 300px;
+    max-width: 400px;
+    height: auto;
+}
+
+/*группа для кнопки*/
+.download__item-auto {
+    position: relative;
+}
+
+.download__item-element {
+    position: absolute;
+    top: 147px;
+    left: 349px;
+    padding: 21px 30px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 13px;
+    /*z-index: 9999;
+    cursor: pointer;*/
+}
+
+/*#download__item-auto::before {
+    content: "";
+    position: absolute;
+    top: 157px;
+    left: 367px;
+    width: 20px;
+    height: 20px;
+    background-image: url('/img/Группа-5-копия.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 10000;
+    cursor: pointer;
+}*/
+

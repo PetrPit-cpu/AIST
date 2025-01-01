@@ -1,0 +1,91 @@
+.team__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 631px;
+    height: 100%;
+    background-image: url(/img/Фон-вакансии.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.team__title {
+    margin-bottom: 30px;
+    font-weight: 700; /* Жирный текст */
+    font-size: 50.7px; /* Размер текста */
+    background: linear-gradient(to right, #0d4cf3, #f67109); /* Градиент от #f67109 к #0d4cf3 */
+    -webkit-background-clip: text; /* Клипирует фон по форме текста */
+    color: transparent; /* Делаем текст прозрачным */
+    display: inline-block; /* Делает элемент блочным для правильного применения градиента */
+    text-align: center;
+}
+
+.team__content {
+    padding-top: 145px;
+}
+
+.team__items-block {
+    padding: 40px 20px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    width: 627px;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 100px;
+}
+
+.team__item-111 {
+    max-width: 565px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.team__text-1 {
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 30px;
+}
+
+.team__gradient-line {
+    width: 565px; /* Ширина линии (можете установить фиксированное значение) */
+    height: 2px; /* Высота линии */
+    background: linear-gradient(to right, #0d4cf3, #f67109); /* Градиент от #0d4cf3 к #f67109 */
+}
+
+.team__line {
+    margin-bottom: 30px;
+}
+
+.team__text-2 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.team__item-222 {
+    display: block;
+    margin: 0 auto;
+    max-width: 672px;
+    width: 100%;
+}
+
+.team__btn-register {
+    max-width: 425px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    padding: 10px 40px;
+    border: 1px solid #ffffff;
+    background-color: #0d4cf3;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.team {
+    margin-bottom: 56px;
+}

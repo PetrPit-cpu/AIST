@@ -1,0 +1,236 @@
+/*Стили по умолчанию для ГЛАВНОЙ СТРАНИЦЫ*/
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: auto;
+}
+
+/*header*/
+
+.header {
+    margin-top: 56px;
+    margin-bottom: 56px;
+}
+
+.header__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 920px;
+    height: auto;
+    background-image: url(/img/ПК-ГЛАВНАЯ-СТРАНИЦА-главный-блок-картинка-с-обрезом.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.menu {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1808px; /* Максимальная ширина контейнера */
+    /*margin: 0 auto; /* Центрирование контейнера по горизонтали */
+}
+
+.header__hat {
+    padding: 30px 30px;
+    width: 1748px;
+}
+
+.header__info {
+    border: none;
+    padding: 10px 40px;
+    align-items: center;
+    background-color: #0d4cf3;
+    color: #ffffff;
+    border-radius: 25px;
+
+}
+
+.info-text_1 {
+    margin-right: 50px;
+}
+
+.info-text_2 {
+    margin-right: 25px;
+}
+
+.header__text-link {
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.header__logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.header__btn-register {
+    margin-right: 25px;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    padding: 10px 40px;
+    border: 1px solid #ffffff;
+    background-color: #0d4cf3;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header__actions {
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 10px 15px;
+    align-items: center;
+    background-color: #0d4cf3;
+    border-radius: 25px;
+}
+
+.header__btn {
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    padding: 10px 40px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 15px;
+    color: #0d4cf3;
+    cursor: pointer;
+}
+
+/*header__block*/
+
+.header__block-left {
+    width: 1009px;
+    display: block;
+}
+
+.header__img {
+    margin-top: 37px;
+}
+
+.header__title {
+    margin: 10px 0 0 0;
+    font-weight: 700;
+    font-size: 50.7px;
+    color: #0d4cf3;
+}
+
+.header__subtitle {
+    margin: 0;
+    font-weight: 700;
+    font-size: 35.96px;
+    color: #353b41;
+}
+
+/*кнопки услуг*/
+
+.header__block-right {
+    padding: 0 30px 30px 0;
+    max-width: 844px;
+    display: flex; /* Используем Flexbox для управления элементами */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: center; /* Центрируем элементы внутри контейнера */
+}
+
+.header__link-container {
+    display: flex; /* Используем Flexbox для управления элементами */
+    flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
+    justify-content: center; /* Центрируем элементы внутри контейнера */
+    gap: 20px;
+}
+
+.header__link-services {
+    padding-left: 20px;
+    padding-bottom: 12px;
+    display: flex; /* Используем Flexbox для содержания */
+    justify-content: flex-end; /* Центрируем текст по горизонтали */
+    align-items: flex-start; /* Центрируем текст по вертикали */
+    flex-direction: column;
+    width: 100%; /* Занимает всю доступную ширину */
+
+    width: 412px; /* Установите ширину по своему усмотрению */
+    height: 190px; /* Установите высоту по своему усмотрению */
+    background-size: cover; /* Настройка изображения без повторов */
+    background-position: center; /* Центрирует изображение */
+    box-sizing: border-box; /* Учитываем отступы в ширину и высоту */
+}
+
+.carriers {
+    max-width: 412px;
+    min-height: 190px;
+    background-image: url('/img/Кнопка-Перевозчикам.png');
+}
+
+.customers {
+    max-width: 412px;
+    min-height: 190px;
+    background-image: url('/img/Кнопка-Заказчикам.png');
+}
+
+.terminals {
+    max-width: 412px;
+    min-height: 190px;
+    background-image: url('/img/Кнопка-Терминалам.png');
+}
+
+.electronic {
+    max-width: 412px;
+    min-height: 190px;
+    background-image: url('/img/Кнопка-Электронный-логист.png');
+}
+
+.header__content {
+    display: flex;
+}
+
+/*текст под услуги*/
+
+.header__text-heading {
+    color: #353b41; /* Цвет текста */
+    font-size: 30px; /* Размер текста */
+    font-weight: bold; /* Жирный текст */
+    text-align: center; /* Центрируем текст */
+}
+
+.header__text-subtitle {
+    color: #353b41; /* Цвет текста */
+    font-size: 18px; /* Размер текста */
+    font-weight: 500; /* Жирный текст */
+}

@@ -1,0 +1,313 @@
+/*заявки*/
+.applications {
+    margin-bottom: 56px;
+}
+
+
+.applications__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 743px;
+    height: auto;
+    position: relative; /* Позволяет псевдоэлементу позиционироваться относительно контейнера */
+    min-height: 743px;
+    background-image: url(/img/ПК-Заявки-на-перевозки-ФОН.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.applications__container::after {
+    content: ""; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Позиционирование относительно родителя */
+    top: 50%; /* Позиция сверху - центруем по вертикали */
+    left: 50%; /* Позиция слева - центруем по горизонтали */
+    width: 505px; /* Ширина наложенного изображения */
+    height: 360px; /* Высота наложенного изображения */
+    background-image: url(/img/Фура-в-полете.png); /* Изображение, которое будет наложено */
+    background-size: contain; /* Масштабируем наложенное изображение */
+    background-position: left; /* Центрируем наложенное изображение */
+    background-repeat: no-repeat; /* Запрет на повторение наложенного изображения */
+    transform: translate(-180%, 5%); /* Центрируем изображение по осям X и Y */
+    z-index: 1; /* Убедитесь, что наложенное изображение выше фонового */
+}
+
+.applications__title {
+    margin: 20px 0 0px 0px;
+    font-weight: 700; /* Жирный текст */
+    font-size: 50.7px; /* Размер текста */
+    background: linear-gradient(to right, #f67109, #0d4cf3); /* Градиент от #f67109 к #0d4cf3 */
+    -webkit-background-clip: text; /* Клипирует фон по форме текста */
+    color: transparent; /* Делаем текст прозрачным */
+}
+
+.applications__title-text {
+    flex-direction: column;
+}
+
+.applications__img {
+    max-width: 671.22px;
+    background: linear-gradient(to bottom, #0d4cf3, #f67109); /* Градиент от #0d4cf3 к #f67109 */
+}
+
+/*фон табло*/
+
+.applications__scoreboard {
+    position: relative; /* Устанавливаем позиционирование для родительского элемента */
+    display: block;
+    margin: auto;
+    max-width: 1382px;
+    width: 100%;
+    min-height: 477px;
+    height: auto;
+    background-image: url(/img/Фон_табло.png); /* Фоновое изображение */
+    background-size: contain; /* Обеспечиваем, что изображение всегда видно */
+    background-position: center; /* Центрируем фоновое изображение */
+    background-repeat: no-repeat; /* Запрещаем повторение фонового изображения */
+}
+
+.applications__scoreboard::after {
+    content: ""; /* Псевдоэлемент должен иметь контент */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 30px; /* Позиция сверху */
+    left: 0; /* Позиция слева */
+    width: 100%; /* Ширина совпадает с шириной родительского элемента */
+    height: 100%; /* Высота совпадает с высотой родительского элемента */
+    background-image: url(/img/Тень.png); /* Накладываемое изображение */
+    background-position: center; /* Центрируем накладываемое изображение */
+    background-repeat: no-repeat; /* Запрещаем повторение тени */
+    pointer-events: none; /* Позволяет щелкать по элементам под тенью */
+}
+
+/*список №1*/
+
+.applications__block-1 {
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+.applications__items-1 {
+    flex-direction: column;
+}
+
+.applications__items-1:nth-child(1) {
+    margin-right: 149px; /* Отступ справа для первого элемента */
+}
+
+.applications__items-1:nth-child(2) {
+    margin-right: 81px; /* Отступ справа для второго элемента */
+}
+
+.applications__items-1:nth-child(3) {
+    margin-right: 110px; /* Отступ справа для третьего элемента */
+}
+
+.applications__items-1:nth-child(4) {
+    margin-right: 95px; /* Отступ справа для четвертого элемента */
+}
+
+.applications__items-1:nth-child(5) {
+    margin-right: 85px; /* Отступ справа для четвертого элемента */
+}
+
+
+/*цвет текста списка*/
+.applications__number {
+    color: #0d4cf3;
+}
+
+.applications__black {
+    color: #000000;
+}
+
+.applications__green {
+    color: #19cd2e;
+}
+
+.applications__blue {
+    color: #0d4cf3;
+}
+
+/*сплошная линия*/
+
+.applications__line {
+    width: 1360px; /* Ширина линии */
+    height: 1px; /* Высота линии */
+    background-color: #353b4150; /* Цвет линии (черный) */
+    margin: 5px 11px; /* Отступы сверху и снизу, если нужно */
+}
+
+/*список №2*/
+.applications__block-2 {
+    margin-top: 15px;
+    margin-left: 40px;
+    justify-content: flex-start;
+}
+
+.applications__items-2 {
+    flex-direction: column;
+}
+
+.applications__items-2 {
+    margin-right: 0; /* Убираем правые отступы у всех ul по умолчанию */
+}
+
+.applications__items-2:nth-child(1) {
+    margin-right: 249px; /* Отступ справа для первого элемента */
+}
+
+.applications__items-2:nth-child(2) {
+    margin-right: 103px; /* Отступ справа для второго элемента */
+}
+
+.applications__items-2:nth-child(3) {
+    margin-right: 160px; /* Отступ справа для третьего элемента */
+}
+
+.applications__items-2:nth-child(4) {
+    margin-right: 90px; /* Отступ справа для четвертого элемента */
+}
+
+.applications__item-2 {
+    font-size: 11.52px;
+}
+
+.applications__class {
+    color: #353b41
+}
+
+.item-class {
+    justify-content: center;
+}
+
+.applications-2 {
+    margin-top: 5px;
+}
+
+.applications__btn-element {
+    margin-top: 5px;
+}
+/*кнопка*/
+
+.applications__btn {
+    font-size: 11.52px;
+    padding: 12px 60px;
+    color: #ffffff;
+    background-color: #0d4cf3;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+/*список №3*/
+
+.applications__block-3 {
+    margin-top: 85px;
+    margin-left: 40px;
+}
+
+.applications__items-3 {
+    flex-direction: column;
+}
+
+.applications__3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.item-3 {
+    font-size: 11.52px;
+}
+
+.bet {
+    justify-content: center;
+}
+
+.applications__items-3:nth-child(1) {
+    margin-right: 149px; /* Отступ справа для первого элемента */
+}
+
+.applications__items-3:nth-child(2) {
+    margin-right: 92px; /* Отступ справа для второго элемента */
+}
+
+.applications__items-3:nth-child(3) {
+    margin-right: 93px; /* Отступ справа для третьего элемента */
+}
+
+.applications__items-3:nth-child(4) {
+    margin-right: 122px; /* Отступ справа для четвертого элемента */
+}
+
+.applications__items-3:nth-child(5) {
+    margin-right: 85px; /* Отступ справа для четвертого элемента */
+}
+
+.applications__description {
+    margin-top: 5px;
+}
+
+.cost {
+    margin-top: 5px;
+    flex-direction: column;
+}
+
+.description__green {
+    color: #19cd2e;
+}
+
+.description__blue {
+    color: #0d4cf3;
+}
+
+/*список №4*/
+
+.applications__block-4 {
+    margin-top: 15px;
+    margin-left: 40px;
+    justify-content: flex-start;
+}
+
+.applications__items-4 {
+    flex-direction: column;
+}
+
+.applications__items-4 {
+    margin-right: 0; /* Убираем правые отступы у всех ul по умолчанию */
+}
+
+.applications__items-4:nth-child(1) {
+    margin-right: 249px; /* Отступ справа для первого элемента */
+}
+
+.applications__items-4:nth-child(2) {
+    margin-right: 103px; /* Отступ справа для второго элемента */
+}
+
+.applications__items-4:nth-child(3) {
+    margin-right: 243px; /* Отступ справа для третьего элемента */
+}
+
+.applications__items-4:nth-child(4) {
+    margin-right: 90px; /* Отступ справа для четвертого элемента */
+}
+
+.applications__item-4 {
+    font-size: 11.52px;
+}
+
+.applications__class {
+    color: #353b41
+}
+
+.item-class {
+    justify-content: center;
+}
+
+.applications-4 {
+    margin-top: 5px;
+}
+
+.applications__btn-element {
+    margin-top: 5px;
+}

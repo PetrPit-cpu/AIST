@@ -1,0 +1,122 @@
+.reviews__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 585px;
+    height: 100%;
+    background-image: url(/img/Фон-отзывы.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.reviews {
+    margin-bottom: 56px;
+}
+
+.reviews__content {
+    display: block;
+    margin: 0 auto;
+    max-width: 1770px;
+}
+
+.reviews__title {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    font-weight: 700; /* Задаем жирный текст */
+    font-size: 50.7px; /* Убедитесь, что размер текста соответствует родительскому */
+    color: #ffffff; /* Цвет для слова СКАЧАЙТЕ */
+    padding: 20px 20px 20px 50px;
+    background-color: #0d4cf3;
+    border-radius: 30px;
+}
+
+.reviews__text {
+    margin-bottom: 20px;
+}
+
+.reviews__text:last-child {
+    margin-bottom: 0; /* Убираем отступ у последнего элемента */
+}
+
+.reviews__vertical-line {
+    width: 10px; /* Ширина линии */
+    min-height: 80px;
+    height: auto; /* Высота линии */
+    background-color: #f67109; /* Цвет линии */
+}
+
+.reviews__block1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 53px;
+    padding-bottom: 53px;
+    margin-left: 105px;
+    margin-right: 106px;
+}
+
+.reviews__subtitle {
+    margin-right: 5px;
+    margin-bottom: 40px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.reviews__subtitle-gray {
+    font-weight: 700;
+    font-size: 22px;
+    color: #a29d9d;
+}
+
+.reviews__block2 {
+    padding: 50px 50px 50px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 30px;
+}
+
+.reviews__content-element {
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.reviews__list-nested {
+    padding-left: 0;
+    display: flex;
+}
+
+.review__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.review__arrow-left {
+    margin-right: 10px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.reviews__arrow_right {
+    margin-left: 10px;
+    padding: 20px 30px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.review__image-left {
+    margin-left: 30px;
+}
+
+.review__image-right {
+    margin-right: 30px;
+}

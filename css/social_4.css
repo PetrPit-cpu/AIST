@@ -1,0 +1,266 @@
+.social {
+    margin-bottom: 56px;
+}
+
+.social__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 359px;
+    height: auto;
+    background-image: url(/img/Фон-Мы-есть.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+/*title*/
+
+.social__title {
+    position: relative; /* Устанавливаем позиционирование для родителей */
+    padding-top: 25px;
+    margin: 0;
+}
+
+.social__title::after {
+    content: ""; /* Пустое содержимое для псевдоэлемента */
+    position: absolute; /* Абсолютное позиционирование */
+    top: 33px; /* Позиция сверху, при необходимости скорректируйте */
+    left: 773px; /* Позиция слева, при необходимости скорректируйте */
+    width: 249px; /* Ширина накладываемого изображения */
+    height: 38px; /* Высота накладываемого изображения */
+    background-image: url('/img/Мы_есть_копия.png'); /* Путь к изображению */
+    background-size: contain; /* Масштабируем изображение */
+    background-repeat: no-repeat; /* Не повторять изображение */
+    z-index: 1; /* Устанавливаем z-index, чтобы быть над другими элементами */
+}
+
+.social__img {
+    display: block;
+    margin: 0 auto;
+}
+
+.social__TG.network {
+    position: relative; /* Устанавливаем позиционирование для контейнера */
+}
+
+.social__TG.network::after {
+    content: ""; /* Псевдоэлемент для изображения */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 0; /* Накладываем сверху */
+    left: 0px; /* Накладываем слева */
+    width: 218px; /* Ширина совпадает с шириной родительского элемента */
+    height: 218px; /* Высота совпадает с высотой родительского элемента */
+    background-image: url(/img/Затемнение_qrTG1.png); /* Накладываемое изображение */
+    background-size: cover; /* Масштабируем изображение по размеру контейнера */
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    z-index: 1; /* Устанавливаем z-index, чтобы накладенное изображение было сверху */
+}
+
+.social__VK.network {
+    position: relative; /* Устанавливаем позиционирование для контейнера */
+}
+
+.social__VK.network::after {
+    content: ""; /* Псевдоэлемент для изображения */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 0; /* Накладываем сверху */
+    left: -1px; /* Накладываем слева */
+    width: 220px; /* Ширина совпадает с шириной родительского элемента */
+    height: 220px; /* Высота совпадает с высотой родительского элемента */
+    background-image: url(/img/Затемнение_qrVK1.png); /* Накладываемое изображение */
+    background-size: cover; /* Масштабируем изображение по размеру контейнера */
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    z-index: 1; /* Устанавливаем z-index, чтобы накладенное изображение было сверху */
+}
+
+.tg {
+    background-image: url('/img/TG1.png'); /* Фон - изображение */
+    padding: 25px 202px; /* Размер кнопки задается через паддинги */
+}
+
+.vk {
+    background-image: url('/img/VK2.png'); /* Фон - изображение */
+    padding: 25px 194px; /* Размер кнопки задается через паддинги */
+}
+
+.rut {
+    background-image: url('/img/RUT3.png'); /* Фон - изображение */
+    padding: 25px 228px; /* Размер кнопки задается через паддинги */
+}
+
+.social__adaptive-button {
+    position: relative; /* Установить относительное позиционирование для правильного отображения псевдоэлемента */
+    background-color: #ffffff; /* Цвет фона кнопки */
+    border: none;
+    border-radius: 10px; /* Скругленные углы */
+    background-size: contain; /* Адаптация изображения под размеры кнопки */
+    background-position: center; /* Центр изображения */
+    background-repeat: no-repeat; /* Запрещаем повторное изображение */
+    text-align: center; /* Текст по центру */
+    font-size: 16px; /* Размер шрифта */
+    color: #000000; /* Цвет текста */
+    cursor: pointer;
+    z-index: 1; /* Устанавливаем кнопке более высокий уровень слоя */
+    overflow: hidden; /* Чтобы псевдоэлемент не выходил за пределы кнопки */
+}
+
+.social__adaptive-button::after {
+    content: ""; /* Создаем псевдоэлемент */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Покрываем всю область границы */
+    border-radius: 10px; /* Совпадает со скруглением кнопки */
+    padding: 2px; /* Толщина границы */
+    background: linear-gradient(to bottom right, #f67109, #0d4cf3); /* Градиент, проходящий по всей длине границы */
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0) border-box; /* Создаем эффект видимой границы */
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1; /* Делаем границу под кнопкой */
+}
+
+.social__adaptive-btn {
+    position: relative; /* Установить относительное позиционирование для правильного отображения псевдоэлемента */
+    background-color: #ffffff; /* Цвет фона кнопки */
+    border: none;
+    border-radius: 10px; /* Скругленные углы */
+    background-size: contain; /* Адаптация изображения под размеры кнопки */
+    background-position: center; /* Центр изображения */
+    background-repeat: no-repeat; /* Запрещаем повторное изображение */
+    text-align: center; /* Текст по центру */
+    font-size: 16px; /* Размер шрифта */
+    color: #000000; /* Цвет текста */
+    cursor: pointer;
+    z-index: 1; /* Устанавливаем кнопке более высокий уровень слоя */
+    overflow: hidden; /* Чтобы псевдоэлемент не выходил за пределы кнопки */
+}
+
+.social__adaptive-btn::after {
+    content: ""; /* Создаем псевдоэлемент */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; /* Покрываем всю кнопку */
+    border-radius: 10px; /* Совпадает со скругленными углами кнопки */
+    padding: 2px; /* Толщина рамки */
+    background: linear-gradient(to top left, #f67109, #0d4cf3); /* Градиент от нижнего правого угла к верхнему левому */
+    -webkit-mask:
+        linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0) border-box; /* Создаем эффект видимой границы */
+    -webkit-mask-composite: destination-out;
+    mask-composite: exclude;
+    z-index: -1; /* Располагаем градиент под текстом */
+}
+
+.social__item-enclosure {
+    margin-bottom: 5px; /* Устанавливаем общий отступ для всех элементов */
+}
+
+.social__item-enclosure:nth-child(3) {
+    margin-bottom: 0; /* Убираем отступ у третьего элемента */
+}
+
+.social__tg,
+.social__vk,
+.social__rut {
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.social__items {
+    justify-content: center;
+    align-items: self-end;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+
+.social__slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    width: 400px;
+    height: 70px;
+}
+
+.social__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.social__items-enclosure {
+    flex-direction: column;
+    justify-content: center;
+}
+
+.social__items .social__TG.network {
+    margin-right: 70px;  /* Устанавливаем отступ справа для первого элемента */
+}
+
+.social__items .social__TG.network + li {
+    margin-right: 0; /* Убираем отступ для остальных элементов */
+}
+
+#social__item-enclosure-1 {
+    position: relative; /* Устанавливаем позиционирование для контейнера */
+}
+
+#social__item-enclosure-1::after {
+    content: ""; /* Создаём псевдоэлемент */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 12px; /* Расположение иконки сверху */
+    left: 20px; /* Расположение иконки слева */
+    width: 50px; /* Ширина иконки */
+    height: 50px; /* Высота иконки */
+    background-image: url('/img/iconTG.png'); /* Путь к иконке */
+    background-size: contain; /* Адаптируем иконку под размеры */
+    background-repeat: no-repeat; /* Убираем повторение изображения */
+    z-index: 9999; /* Устанавливаем иконку поверх всех слоев */
+    pointer-events: none; /* Делаем иконку некликабельной */
+}
+
+#social__item-enclosure-2 {
+    position: relative; /* Устанавливаем позиционирование для контейнера */
+}
+
+#social__item-enclosure-2::after {
+    content: ""; /* Создаём псевдоэлемент */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 12px; /* Расположение иконки сверху */
+    left: 20px; /* Расположение иконки слева */
+    width: 50px; /* Ширина иконки */
+    height: 50px; /* Высота иконки */
+    background-image: url('/img/iconVK.png'); /* Путь к иконке */
+    background-size: contain; /* Адаптируем иконку под размеры */
+    background-repeat: no-repeat; /* Убираем повторение изображения */
+    z-index: 9999; /* Устанавливаем иконку поверх всех слоев */
+    pointer-events: none; /* Делаем иконку некликабельной */
+}
+
+#social__item-enclosure-3 {
+    position: relative; /* Устанавливаем позиционирование для контейнера */
+}
+
+#social__item-enclosure-3::after {
+    content: ""; /* Создаём псевдоэлемент */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 12px; /* Расположение иконки сверху */
+    left: 20px; /* Расположение иконки слева */
+    width: 50px; /* Ширина иконки */
+    height: 50px; /* Высота иконки */
+    background-image: url('/img/iconRUT.png'); /* Путь к иконке */
+    background-size: contain; /* Адаптируем иконку под размеры */
+    background-repeat: no-repeat; /* Убираем повторение изображения */
+    z-index: 9999; /* Устанавливаем иконку поверх всех слоев */
+    pointer-events: none; /* Делаем иконку некликабельной */
+}

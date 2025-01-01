@@ -1,0 +1,119 @@
+.platform__container {
+    z-index: 1;
+    position: relative;
+    overflow: hidden;
+    max-width: 1808px;
+    width: 100%;
+    min-height: 743px;
+    height: 100%;
+    background-image: url(/img/Фон-как-работает-платформа.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.platform__container::after {
+    content: ""; /* Псевдоэлемент для изображения */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 103px; /* Накладываем сверху */
+    left: 1364px; /* Накладываем слева */
+    width: 352px; /* Ширина совпадает с шириной родительского элемента */
+    height: 149px; /* Высота совпадает с высотой родительского элемента */
+    background-image: url(/img/Прямоугольник-2.png); /* Накладываемое изображение */
+    background-size: cover; /* Масштабируем изображение по размеру контейнера */
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    z-index: -1; /* Устанавливаем z-index, чтобы накладенное изображение было сверху */
+}
+
+.platform__container::before {
+    content: ""; /* Псевдоэлемент для изображения */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 290px; /* Накладываем сверху */
+    right: 1410px; /* Накладываем слева */
+    width: 252px; /* Ширина совпадает с шириной родительского элемента */
+    height: 240px; /* Высота совпадает с высотой родительского элемента */
+    background-image: url(/img/Прямоугольник-3.png); /* Накладываемое изображение */
+    background-size: cover; /* Масштабируем изображение по размеру контейнера */
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    z-index: -1; /* Устанавливаем z-index, чтобы накладенное изображение было сверху */
+}
+
+.platform__single-color {
+    font-weight: 700; /* Задаем жирный текст */
+    font-size: 50.7px; /* Убедитесь, что размер текста соответствует родительскому */
+    color: #0d4cf3; /* Цвет для слова СКАЧАЙТЕ */
+}
+
+.platform__gradient-text {
+    font-weight: 700; /* Жирный текст */
+    font-size: 50px; /* Размер текста */
+    background: linear-gradient(to bottom, #0d4cf3, #f67109); /* Градиент сверху вниз от #0d4cf3 до #f67109 */
+    -webkit-background-clip: text; /* Клипирует фон по форме текста */
+    color: transparent; /* Делаем текст прозрачным, чтобы видеть градиентный фон */
+}
+
+.platform__title {
+    position: relative;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    padding: 20px 20px;
+    border-radius: 25px;
+    background-color: #ffffff;
+}
+
+.platform__title::after {
+    content: ""; /* Псевдоэлемент для изображения */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 357px; /* Накладываем сверху */
+    left: 1148px; /* Накладываем слева */
+    width: 60px; /* Ширина совпадает с шириной родительского элемента */
+    height: 59px; /* Высота совпадает с высотой родительского элемента */
+    background-image: url(/img/Прямоугольник-1.png); /* Накладываемое изображение */
+    background-size: cover; /* Масштабируем изображение по размеру контейнера */
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    z-index: 1; /* Устанавливаем z-index, чтобы накладенное изображение было сверху */
+}
+
+.platform__items {
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 53px;
+}
+
+.platform__item-video {
+    position: relative;
+    margin-top: 50px;
+    padding: 250px 535px;
+    border-radius: 30px;
+    background-color: #ffffff;
+    background-image: url('/img/Видео.png'); /* Путь к изображению */
+    background-size: 95%;
+    background-position: center;
+    background-repeat: no-repeat; /* Не повторять изображение */
+}
+
+.platform__item-video::after {
+    content: ""; /* Псевдоэлемент для изображения */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 155px; /* Накладываем сверху */
+    right: 1148px; /* Накладываем слева */
+    width: 48px; /* Ширина совпадает с шириной родительского элемента */
+    height: 48px; /* Высота совпадает с высотой родительского элемента */
+    background-image: url(/img/platform_1.png); /* Накладываемое изображение */
+    background-size: cover; /* Масштабируем изображение по размеру контейнера */
+    background-repeat: no-repeat; /* Не повторяем изображение */
+    z-index: 1; /* Устанавливаем z-index, чтобы накладенное изображение было сверху */
+}
+
+
+.platform {
+    margin-bottom: 56px;
+}
+
+
+
+
+
