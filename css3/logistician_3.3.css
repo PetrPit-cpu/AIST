@@ -1,0 +1,92 @@
+.logistician {
+    margin-bottom: 96px;
+}
+
+.logistician__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 740px;
+    height: auto;
+    background-image: url(/img/Фон-Электронный-логист.png);
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.logistician__title {
+    margin: 20px 0 0 100px;
+    font-weight: 700; /* Жирный текст */
+    font-size: 50.7px; /* Размер текста */
+    background: linear-gradient(to right, #0d4cf3, #f67109); /* Градиент от #f67109 к #0d4cf3 */
+    -webkit-background-clip: text; /* Клипирует фон по форме текста */
+    color: transparent; /* Делаем текст прозрачным */
+    display: inline-block; /* Делает элемент блочным для правильного применения градиента */
+}
+
+.logistician__text-1 {
+    font-weight: 500;
+    font-size: 19px;
+    margin-bottom: 21px;
+    letter-spacing: -0.6px;
+}
+
+.logistician__text-2 {
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 22px;
+    letter-spacing: 0.2px;
+}
+
+.logistician__gradient-line {
+    width: 671.53px; /* Ширина линии (можете установить фиксированное значение) */
+    height: 2px; /* Высота линии */
+    background: linear-gradient(to right, #0d4cf3, #f67109); /* Градиент от #0d4cf3 к #f67109 */
+}
+
+.logistician__items-block {
+    margin-top: 60px;
+    max-width: 720px;
+    height: auto;
+    flex-direction: column;
+    margin-left: 78px;
+}
+
+.logistician__item-111 {
+    display: block;
+    margin: 0 auto;
+    padding: 27px 16px 31px 25px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    max-width: 680px;
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 327px;
+}
+
+.logistician__item-222 {
+    display: block;
+    margin: 0 auto;
+    max-width: 672px;
+    width: 100%;
+    height: auto;
+    border: none;
+    padding: 10px 5px;
+    background-color: #0d4cf3;
+    border-radius: 25px;
+}
+
+.logistician__btn-register {
+    max-width: 645px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    padding: 10px 40px;
+    border: 1px solid #ffffff;
+    background-color: #0d4cf3;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}

@@ -1,0 +1,196 @@
+
+.benefit__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 743px;
+    height: auto;
+    position: relative; /* Позволяет псевдоэлементу позиционироваться относительно контейнера */
+    min-height: 388px;
+    background-image: url(/img-2/Работать-выгодно-фон.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+    z-index: 2;
+}
+
+.benefit__title {
+    margin: 183px 56px 43px 43px;
+    font-weight: 700; /* Жирный текст */
+    font-size: 50.7px; /* Размер текста */
+    background: linear-gradient(to right, #f67109, #0d4cf3); /* Градиент от #f67109 к #0d4cf3 */
+    -webkit-background-clip: text; /* Клипирует фон по форме текста */
+    color: transparent; /* Делаем текст прозрачным */
+}
+
+.benefit__img-1 {
+    transform: translate(-2px, -37px);
+    max-width: 31px;
+    min-height: 31px;
+}
+
+.benefit__list {
+    max-width: 1808px;
+    padding: 25px 0;
+    width: 100%;
+    min-height: 338px;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.benefit__item-1,
+.benefit__item-2,
+.benefit__item-3,
+.benefit__item-4 {
+    max-width: 423px;
+    width: 100%;
+    min-height: 338px;
+    border-radius: 30px;
+    background-color: #ffffff;
+}
+
+.benefit__item-1 {
+    position: relative;
+}
+
+.benefit__item-1::after {
+    content: ""; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Позиционирование относительно родителя */
+    bottom: 66%; /* Позиция сверху - центруем по вертикали */
+    left: 103%; /* Позиция слева - центруем по горизонтали */
+    max-width: 276px; /* Ширина наложенного изображения */
+    width: 100%;
+    height: 238px; /* Высота наложенного изображения */
+    background-image: url(/img-2/Квадрат-2.png); /* Изображение, которое будет наложено */
+    background-size: contain; /* Масштабируем наложенное изображение */
+    background-position: left; /* Центрируем наложенное изображение */
+    background-repeat: no-repeat; /* Запрет на повторение наложенного изображения */
+    transform: translate(-100%, 100%); /* Центрируем изображение по осям X и Y */
+    z-index: -1; /* Убедитесь, что наложенное изображение выше фонового */
+}
+
+.benefit__item-2 {
+    position: relative;
+}
+
+.benefit__item-2::after {
+    content: ""; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Позиционирование относительно родителя */
+    bottom: 81.3%; /* Позиция сверху - центруем по вертикали */
+    left: 154.3%; /* Позиция слева - центруем по горизонтали */
+    max-width: 336px; /* Ширина наложенного изображения */
+    width: 100%;
+    height: 290px; /* Высота наложенного изображения */
+    background-image: url(/img-2/Квардрат-1.png); /* Изображение, которое будет наложено */
+    background-size: contain; /* Масштабируем наложенное изображение */
+    background-position: left; /* Центрируем наложенное изображение */
+    background-repeat: no-repeat; /* Запрет на повторение наложенного изображения */
+    transform: translate(-100%, 100%); /* Центрируем изображение по осям X и Y */
+    z-index: -1; /* Убедитесь, что наложенное изображение выше фонового */
+}
+
+.benefit__item-4 {
+    position: relative;
+}
+
+.benefit__item-4::after {
+    content: ""; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Позиционирование относительно родителя */
+    bottom: 103.4%; /* Позиция сверху - центруем по вертикали */
+    left: 102.4%; /* Позиция слева - центруем по горизонтали */
+    max-width: 335px; /* Ширина наложенного изображения */
+    width: 100%;
+    height: 120px; /* Высота наложенного изображения */
+    background-image: url(/img-2/Прямоугольник-блок-2.png); /* Изображение, которое будет наложено */
+    background-size: contain; /* Масштабируем наложенное изображение */
+    background-position: left; /* Центрируем наложенное изображение */
+    background-repeat: no-repeat; /* Запрет на повторение наложенного изображения */
+    transform: translate(-100%, 100%); /* Центрируем изображение по осям X и Y */
+    z-index: -1; /* Убедитесь, что наложенное изображение выше фонового */
+}
+
+.benefit__element-1 {
+    max-width: 240px;
+    width: 100%;
+    min-height: 138px;
+    border-radius: 30px;
+    background-color: #b0bfe8;
+}
+
+.element-card-1 {
+    margin: 26px 92px 20px;
+}
+
+.element-card-2 {
+    margin: 26px 92px 48px;
+}
+
+.element-card-3 {
+    margin: 26px 92px 16px;
+}
+
+.element-card-4 {
+    margin: 26px 92px 45px;
+}
+
+.benefit__img-icon-1 {
+    padding: 32px 65px 25px 101px;
+}
+
+.benefit__img-icon-2 {
+    padding: 32px 87px 25px 90px;
+}
+
+.benefit__img-icon-3 {
+    padding: 32px 81px 25px 83px;
+}
+
+.benefit__img-icon-4 {
+    padding: 32px 94px 25px 95px;
+}
+
+.benefit__text-1,
+.benefit__text-2,
+.benefit__text-3,
+.benefit__text-4 {
+    font-weight: 700;
+    font-size: 24.1px;
+    color: #353b41;
+    text-align: center;
+}
+
+.benefit__description-1,
+.benefit__description-2,
+.benefit__description-3,
+.benefit__description-4 {
+    text-align: center;
+    color: #353b41;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.benefit__description-1 {
+    padding: 12px 20px 5px 25px;
+    letter-spacing: 0.19px;
+}
+
+.benefit__description-2 {
+    padding: 12px 23px 5px 25px;
+    letter-spacing: 0.19px;
+}
+
+.benefit__description-3 {
+    padding: 15px 25px 5px 25px;
+    letter-spacing: 0.19px;
+}
+
+.benefit__description-4 {
+    padding: 15px 28px 5px 25px;
+    letter-spacing: 0.19px;
+}
+
+.benefit {
+    margin-bottom: 103px;
+}
+
+

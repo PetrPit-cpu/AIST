@@ -1,0 +1,235 @@
+.footer__container {
+    position: relative;
+    max-width: 1808px;
+    width: 100%;
+    min-height: 476px;
+    height: 100%;
+    background-image: url(/img/Фон-подвал.png);
+    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.footer__container::after {
+    content: ""; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Позиционирование относительно родителя */
+    top: 47%;
+    left: 50%;
+    width: 650px;
+    height: 389px; /* Высота наложенного изображения */
+    background-image: url(/img/Фура-2-в-подвал.png); /* Изображение, которое будет наложено */
+    background-size: contain; /* Масштабируем наложенное изображение */
+    background-position: left; /* Центрируем наложенное изображение */
+    background-repeat: no-repeat; /* Запрет на повторение наложенного изображения */
+    transform: translate(38%, -50%); /* Центрируем изображение по осям X и Y */
+    z-index: 1; /* Убедитесь, что наложенное изображение выше фонового */
+}
+
+.footer__container::before {
+    content: ""; /* Создаем пустой контент для псевдоэлемента */
+    position: absolute; /* Позиционирование относительно родителя */
+    top: 73%; /* Позиция сверху - центруем по вертикали */
+    left: 89%; /* Позиция слева - центруем по горизонтали */
+    width: 100px; /* Ширина наложенного изображения */
+    height: 50px; /* Высота наложенного изображения */
+    background-image: url(/img/LOGO_ALEX_BARD_VECTOR.svg); /* Изображение, которое будет наложено */
+    background-size: contain; /* Масштабируем наложенное изображение */
+    background-position: left; /* Центрируем наложенное изображение */
+    background-repeat: no-repeat; /* Запрет на повторение наложенного изображения */
+    transform: translate(38%, -50%); /* Центрируем изображение по осям X и Y */
+    z-index: 1; /* Убедитесь, что наложенное изображение выше фонового */
+}
+
+.footer__list-items {
+    display: flex;
+    flex-direction: column;
+    /*margin-right: 20px;*/
+}
+
+.footer__link {
+    color: #353b41;
+}
+
+.footer-text {
+    margin-bottom: 14px;
+}
+
+.footer__number {
+    margin-bottom: 10px;
+}
+
+.item-1 {
+    margin-bottom: 5px;
+}
+
+.hotline {
+    margin-bottom: 7px;
+}
+
+.job_openings {
+    margin-bottom: 7px;
+}
+
+.item-company-1 {
+    margin-bottom: 8px;
+}
+
+.item-platform {
+    margin-bottom: 8px;
+}
+
+.item-2-bid-1 {
+    margin-bottom: 8px;
+}
+
+.item-2-bid-2 {
+    margin-bottom: 7px;
+}
+
+.client-text {
+    margin-bottom: 11px;
+}
+
+.electronic-text {
+    margin-bottom: 25px;
+}
+
+.rules-text {
+    margin-bottom: 29px;
+}
+
+.log-item {
+    margin-bottom: 27px;
+}
+
+.text-terminals {
+    margin-bottom: 42px;
+}
+
+.link-text {
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.link-number {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.list-info {
+    max-width: 188px;
+}
+
+.footer__content {
+    display: flex;
+    justify-content: flex-start;
+    max-width: 1300px;
+    padding-top: 142px;
+    padding-left: 52px;
+}
+
+.footer__strong {
+    font-weight: 700;
+    font-size: 20px;
+    color: #353b41;
+}
+
+.footer {
+    margin-bottom: 200px;
+}
+
+.forwarder {
+    margin-right: 100px;
+}
+
+.terminals {
+    margin-right: 89px;
+}
+
+.useful_information {
+    margin-right: 79px;
+}
+
+/*нижняя часть*/
+
+.footer__img-24 {
+    max-width: 44px;
+    min-height: 44px;
+}
+
+.footer__TG, .footer__VK, .footer__RUT {
+    width: 47.3px;
+    height: 47.3px;
+}
+
+.footer__items-lower .footer__item-basement:last-child {
+    margin-right: 0; /* Убираем отступ справа */
+}
+
+.footer__items-lower {
+    align-items: center;
+    padding: 8px 14px 8px 20px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0d4cf3;
+}
+
+.footer-social-rub {
+    margin-right: 48px;
+}
+
+.footer-social {
+    margin-right: 10px;
+}
+
+.footer-24 {
+    margin-right: 409px;
+}
+
+.footer-item-24 {
+    margin-right: 25px;
+}
+
+.footer-item-tel {
+    margin-left: 7px;
+    margin-right: 125px;
+}
+
+.footer-item-mail {
+    margin-right: 59px;
+}
+
+.basement {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.footer__btn-two {
+    padding: 10px 34px;
+    border: none;
+    background-color: #ffffff;
+    color: #0d4cf3;
+    cursor: pointer;
+}
+
+.basement-btn {
+    margin-right: 39px;
+    padding: 10px 25px;
+    border: 1px solid #ffffff;
+    background-color: #0d4cf3;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.footer__btn {
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    border-radius: 15px;
+}
+
+.footer__lower {
+    margin: 29px 26px 15px 25px;
+}
