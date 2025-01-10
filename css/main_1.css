@@ -41,7 +41,7 @@ body {
 
 .header {
     margin-top: 56px;
-    margin-bottom: 56px;
+    margin-bottom: 72px;
 }
 
 .header__container {
@@ -50,7 +50,7 @@ body {
     min-height: 920px;
     height: auto;
     background-image: url(/img/ПК-ГЛАВНАЯ-СТРАНИЦА-главный-блок-картинка-с-обрезом.png);
-    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
     background-position: center; /* Расположение изображения по центру контейнера */
     background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
 }
@@ -66,26 +66,33 @@ body {
 }
 
 .header__hat {
-    padding: 30px 30px;
-    width: 1748px;
+    margin-bottom: auto;
+    padding: 20px 27px 25px 27px;
+    max-width: 1754px;
+    width: 100%;
+    justify-content: space-between;
 }
 
 .header__info {
     border: none;
-    padding: 10px 40px;
+    padding: 7px 30px 11px 36px;
     align-items: center;
     background-color: #0d4cf3;
     color: #ffffff;
-    border-radius: 25px;
+    border-radius: 20px;
+}
 
+.header__svg-1 {
+    max-width: 40px;
+    min-height: 40px;
 }
 
 .info-text_1 {
-    margin-right: 50px;
+    margin-right: 52px;
 }
 
 .info-text_2 {
-    margin-right: 25px;
+    margin-right: 17px;
 }
 
 .header__text-link {
@@ -95,19 +102,18 @@ body {
 }
 
 .header__logo {
-    display: block;
-    margin: 0 auto;
+    display: none;
 }
 
 .header__btn-register {
-    margin-right: 25px;
+    margin-right: 36px;
     font-weight: 500;
     font-size: 22px;
     font-style: normal;
-    padding: 10px 40px;
+    padding: 9px 27px 9px 26px;
     border: 1px solid #ffffff;
     background-color: #0d4cf3;
-    border-radius: 15px;
+    border-radius: 12px;
     color: #ffffff;
     cursor: pointer;
 }
@@ -116,20 +122,20 @@ body {
     display: flex;
     justify-content: center;
     border: none;
-    padding: 10px 15px;
+    padding: 10px 15px 8px 13px;
     align-items: center;
     background-color: #0d4cf3;
-    border-radius: 25px;
+    border-radius: 20px;
 }
 
 .header__btn {
     font-weight: 500;
     font-size: 22px;
     font-style: normal;
-    padding: 10px 40px;
+    padding: 8px 33px 8px 34px;
     border: none;
     background-color: #ffffff;
-    border-radius: 15px;
+    border-radius: 10px;
     color: #0d4cf3;
     cursor: pointer;
 }
@@ -137,12 +143,18 @@ body {
 /*header__block*/
 
 .header__block-left {
-    width: 1009px;
-    display: block;
+    max-width: 828px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
 }
 
 .header__img {
-    margin-top: 37px;
+    margin-top: 54px;
+    max-width: 589px;
+    width: 100%;
+    height: auto;
 }
 
 .header__title {
@@ -154,6 +166,7 @@ body {
 
 .header__subtitle {
     margin: 0;
+    margin-bottom: 23px;
     font-weight: 700;
     font-size: 35.96px;
     color: #353b41;
@@ -162,8 +175,9 @@ body {
 /*кнопки услуг*/
 
 .header__block-right {
-    padding: 0 30px 30px 0;
-    max-width: 844px;
+    padding: 0 0 30px 0;
+    max-width: 863px;
+    width: 100%;
     display: flex; /* Используем Flexbox для управления элементами */
     flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
     justify-content: center; /* Центрируем элементы внутри контейнера */
@@ -173,7 +187,7 @@ body {
     display: flex; /* Используем Flexbox для управления элементами */
     flex-wrap: wrap; /* Позволяет элементам переноситься на новую строку */
     justify-content: center; /* Центрируем элементы внутри контейнера */
-    gap: 20px;
+    gap: 30px;
 }
 
 .header__link-services {
@@ -217,6 +231,7 @@ body {
 }
 
 .header__content {
+    gap: 97px;
     display: flex;
 }
 

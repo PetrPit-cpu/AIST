@@ -1,0 +1,986 @@
+@media(max-width: 1440px) {
+    .header__container {
+        max-width: 1348px;
+        width: 100%;
+        min-height: 686px;
+        height: auto;
+        background-image: url(/img/ПК-ГЛАВНАЯ-СТРАНИЦА-главный-блок-картинка-с-обрезом.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .header__hat {
+        margin-bottom: auto;
+        padding: 16px 21px 25px 21px;
+        max-width: 1309px;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .header__btn-register {
+        font-size: 20px;
+    }
+
+    .header__btn {
+        font-size: 20px;
+    }
+
+    .header__text-link {
+        font-size: 20px;
+    }
+
+    .header__content {
+        gap: 65px;
+        display: flex;
+    }
+
+    .header__block-left {
+        max-width: 641px;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__img {
+        margin-top: 122px;
+        max-width: 435px;
+        width: 100%;
+        height: auto;
+    }
+
+    .header__title {
+        margin: 10px 0 0 0;
+        font-weight: 700;
+        font-size: 37.7px;
+        color: #0d4cf3;
+    }
+
+    .header__subtitle {
+        margin: 0;
+        margin-bottom: 15px;
+        font-weight: 700;
+        font-size: 26.96px;
+        color: #353b41;
+    }
+
+    /*присвоить линии xlass и вписать */
+    .header__gradient_line {
+        max-width: 615px;
+        width: 100%;
+    }
+
+    .header__block-right {
+        padding: 0;
+        max-width: 645px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .carriers {
+        max-width: 300px;
+        height: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/img/Кнопка-Перевозчикам.png);
+    }
+
+    .customers {
+        max-width: 300px;
+        height: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/img/Кнопка-Заказчикам.png);
+    }
+
+    .terminals {
+        max-width: 300px;
+        height: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/img/Кнопка-Терминалам.png);
+    }
+
+    .electronic {
+        max-width: 300px;
+        height: auto;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/img/Кнопка-Электронный-логист.png);
+    }
+
+    .header__text-heading {
+        color: #353b41;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .header__link-services {
+        padding-left: 10px;
+        padding-bottom: 35px;
+    }
+
+    .header__text-subtitle {
+        color: #353b41;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    /*вторая секция*/
+
+    .applications__container {
+        max-width: 1348px;
+        width: 100%;
+        height: auto;
+        position: relative;
+        min-height: 578px;
+        background-image: url(/img/ПК-Заявки-на-перевозки-ФОН.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .applications__scoreboard {
+        position: relative;
+        margin: 0px 52px;
+        max-width: 1248px;
+        width: 100%;
+        min-height: 477px;
+        height: auto;
+        background-image: url(/img-2/Фон-заявки-без-обводки.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .applications__layer::after {
+        content: "";
+        position: absolute;
+        top: -11px;
+        left: 9px;
+        max-width: 1230px;
+        width: 100%;
+        min-height: 165px;
+        border-radius: 24px;
+        background-color: #ffffff;
+        z-index: -1;
+    }
+
+    .applications__layer-1::after {
+        content: "";
+        position: absolute;
+        top: -11px;
+        left: 9px;
+        max-width: 1230px;
+        width: 100%;
+        min-height: 192px;
+        border-radius: 24px;
+        z-index: -2;
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0));
+    }
+
+    .applications__line-2 {
+        max-width: 1228px;
+        width: 100%;
+        min-height: 1px;
+        background-color: #353b4150;
+        margin: 10px 11px 5px 11px;
+    }
+
+    .applications__line {
+        max-width: 1228px;
+        width: 100%;
+        min-height: 1px;
+        background-color: #353b4150;
+        margin: 14px 11px 5px 11px;
+    }
+
+    .applications__scoreboard::after {
+        content: "";
+        position: absolute;
+        top: 65px;
+        left: 1px;
+        max-width: 1247px;
+        width: 100%;
+        height: 100%;
+        background-size: contain;
+        background-image: url(/img-2/Тень.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        pointer-events: none;
+    }
+
+    .applications__description {
+        font-size: 17px;
+        margin-top: 3px;
+    }
+
+    .applications__description-3 {
+        font-size: 17px;
+        margin-top: 2px;
+    }
+
+    .tons {
+        margin-top: 3px;
+        font-size: 17px;
+    }
+
+    .applications__description-4 {
+        font-size: 17px;
+        margin-top: 4px;
+    }
+
+    .applications__btn {
+        font-size: 15px;
+        padding: 12px 46px 12px 55px;
+        color: #ffffff;
+        background-color: #0d4cf3;
+        border: none;
+        cursor: pointer;
+        border-radius: 10px;
+    }
+
+    .applications__block-1 {
+        margin-top: 43px;
+        margin-left: 22px;
+    }
+
+    .applications__block-2 {
+        margin-top: 12px;
+        margin-left: 22px;
+        justify-content: flex-start;
+    }
+
+    .item-3 {
+        font-size: 15px;
+    }
+
+    .applications__item-2 {
+        font-size: 15px;
+    }
+
+    .tons-4 {
+        font-size: 17px;
+    }
+
+    .applications__scoreboard::before {
+        display: none;
+    }
+
+    .applications__items-2:nth-child(3) {
+        margin-right: 24px;
+    }
+
+    .applications__items-2:nth-child(4) {
+        margin-right: 88px;
+    }
+
+    .applications__items-3:nth-child(4) {
+        margin-right: 60px;
+    }
+
+    .applications__items-4:nth-child(3) {
+        margin-right: 100px;
+    }
+
+    .applications__items-4:nth-child(4) {
+        margin-right: 88px;
+    }
+
+    .applications__button {
+        justify-content: center;
+        align-items: center;
+        font-weight: 500;
+        font-size: 22px;
+        font-style: normal;
+        border: 1px solid #ffffff;
+        background-color: #0d4cf3;
+        border-radius: 12px;
+        color: #ffffff;
+        cursor: pointer;
+        gap: 34px;
+        padding: 5px 23px 5px 79px;
+        z-index: 2;
+    }
+
+    .applications__button-background {
+        padding: 10px 10px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        position: absolute;
+        bottom: 100px;
+        left: 100px;
+        transform: translate(82%, 79%);
+    }
+
+    .menu {
+        justify-content: flex-start;
+    }
+
+    .header {
+        margin-bottom: 56px;
+    }
+
+    /*.applications__title-text {
+        padding-top: 36px;
+    }*/
+
+    .applications__title {
+        margin: 13px 0 0px -2px;
+        font-weight: 700;
+        font-size: 37.7px;
+        color: #0d4cf3;
+        letter-spacing: -0.1px;
+    }
+
+    .applications__button::before {
+        content: "";
+        position: absolute;
+        bottom: -18px;
+        left: -490px;
+        max-width: 405px;
+        width: 100%;
+        min-height: 260px;
+        height: auto;
+        background-size: contain;
+        background-image: url(/img/Фура-в-полете.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        pointer-events: none;
+        z-index: -2;
+    }
+
+    .applications {
+        margin-bottom: 56px;
+    }
+
+    /*третья секция*/
+
+    .donwload__container {
+        max-width: 1348px;
+        width: 100%;
+        min-height: 569px;
+        height: auto;
+        background-image: url(/img/Фон-скачайте-приложение.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        border-radius: 28px;
+    }
+
+    .download__iphone-1-img {
+        transform: translate(-12px, 15px);
+        margin-left: 65px;
+        max-width: 286px;
+        height: auto;
+    }
+
+    .download__gradient-text {
+        font-weight: 700;
+        font-size: 37.7px;
+        background: linear-gradient(to right, #f67109, #0d4cf3);
+        -webkit-background-clip: text;
+        color: transparent;
+    }
+
+    .download__single-color {
+        font-weight: 700;
+        font-size: 37.7px;
+        color: #0d4cf3;
+    }
+
+    .download__text {
+        font-size: 15.7px;
+    }
+
+    .download__items-block {
+        margin-left: 355px;
+        margin-top: 20px;
+    }
+
+    .download__title {
+        max-width: 556px;
+        width: 100%;
+    }
+
+    .dowload__content {
+        max-width: 953px;
+        /* padding-top: 40px; */
+    }
+
+    .download__img-aist {
+        margin-bottom: 56px;
+        max-width: 297px;
+        height: 100%;
+    }
+
+    .download__item-auto {
+        max-width: 340px;
+        width: 100%;
+    }
+
+    .download__item-element {
+        position: absolute;
+        top: 121px;
+        left: 285px;
+        padding: 17px 26px;
+        border: none;
+        background-color: #ffffff;
+        border-radius: 13px;
+    }
+
+    .dowload__square {
+        margin-left: 329px;
+    }
+
+    .lon {
+        gap: 50px;
+    }
+
+    .download__google, .download__apple {
+        max-width: 152px;
+        width: 100%;
+        height: 50px;
+    }
+
+    .download__items-app-google {
+        max-width: 338px;
+    }
+
+    .download__btn {
+        padding: 17px 34px;
+    }
+
+    .download__items-block {
+        padding: 8px 30px 20px 24px;
+    }
+
+    /*4 секция*/
+
+    .social__container {
+        max-width: 1348px;
+        width: 100%;
+        min-height: 360px;
+        height: auto;
+        background-image: url(/img/Фон-Мы-есть.png);
+        background-size: 1348px 330px;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .social__title::after {
+        content: "";
+        position: absolute;
+        top: 33px;
+        left: 546px;
+    }
+
+    .tg {
+        background-image: url(/img/TG1.png);
+        padding: 20px 150px;
+    }
+
+    .vk {
+        background-image: url(/img/VK2.png);
+        padding: 20px 143px;
+    }
+
+    .rut {
+        background-image: url(/img/RUT3.png);
+        padding: 20px 171px;
+    }
+
+    .social__items {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .social__tg, .social__vk, .social__rut {
+        font-weight: 700;
+        font-size: 18px;
+    }
+
+    .social__TG,
+    .social__VK
+     {
+        max-width: 180px;
+        width: 100%;
+    }
+
+    .social__TG.network::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0px;
+        max-width: 180px;
+        width: 100%;
+        height: 180px;
+    }
+
+    .social__VK.network::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: -1px;
+        max-width: 180px;
+        width: 100%;
+        height: 180px;
+    }
+
+    #social__item-enclosure-1::after {
+        content: "";
+        position: absolute;
+        top: 11px;
+        left: 20px;
+        max-width: 40px;
+        width: 100%;
+        height: 40px;
+    }
+
+    #social__item-enclosure-2::after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        max-width: 40px;
+        width: 100%;
+        height: 40px;
+    }
+
+    #social__item-enclosure-3::after {
+        content: "";
+        position: absolute;
+        top: 12px;
+        left: 20px;
+        max-width: 40px;
+        width: 100%;
+        height: 40px;
+    }
+
+    .social__text {
+        font-size: 20px;
+    }
+
+    /*5 секция*/
+
+    .logistician__container {
+        max-width: 1348px;
+        width: 100%;
+        min-height: 552px;
+        height: auto;
+        background-image: url(/img/Фон-Электронный-логист.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .logistician__title {
+        margin: 20px 0 0 80px;
+        font-size: 37.7px;
+    }
+
+    .logistician__items-block {
+        margin-left: 58px;
+    }
+
+    .logistician__items-block {
+        max-width: 536px;
+        width: 100%;
+    }
+
+    .logistician__item-111 {
+        max-width: 517px;
+        width: 100%;
+        padding: 29px 0px 29px 22px;
+        margin-bottom: 139px;
+    }
+
+    .logistician__gradient-line {
+        max-width: 488px;
+        width: 100%;
+    }
+
+    .logistician__text-1 {
+        font-size: 18px;
+    }
+
+    .logistician__btn-register {
+        font-size: 20px;
+        max-width: 495px;
+        width: 100%;
+    }
+
+    .logistician__item-222 {
+        display: block;
+        margin: 0 auto;
+        max-width: 511px;
+        width: 100%;
+        border: none;
+        padding: 8px 5px;
+        background-color: #0d4cf3;
+        border-radius: 19px;
+    }
+    /*шестая*/
+
+    .queue__container {
+        max-width: 1348px;
+        width: 100%;
+        min-height: 415px;
+        height: auto;
+        background-image: url(/img/Фон-Электронная-очередь-с-плашками.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .queue__gradient-text {
+        font-size: 37.7px;
+    }
+
+    .queue__single-color {
+        font-size: 37.7px;
+    }
+
+    .queue__title {
+        max-width: 700px;
+        width: 100%;
+        padding-top: 43px;
+        margin: 0 0 0 91px;
+    }
+
+    .queue__text {
+        font-size: 19px;
+    }
+
+    .queue__items-block {
+        margin-top: 80px;
+        padding-left: 11px;
+        max-width: 689px;
+        flex-direction: column;
+    }
+
+    .queue__btn-register {
+        max-width: 240px;
+        width: 100%;
+        font-weight: 500;
+        font-size: 20px;
+        font-style: normal;
+        padding: 7px 31px;
+        border: 1px solid #ffffff;
+        background-color: #0d4cf3;
+        border-radius: 15px;
+        color: #ffffff;
+        cursor: pointer;
+    }
+
+    .queue__item2 {
+        margin-top: 68px;
+        max-width: 242px;
+        margin-left: 93px;
+        width: 100%;
+    }
+
+    /*седьмая*/
+
+    .platform__container {
+        z-index: 1;
+        position: relative;
+        overflow: hidden;
+        max-width: 1348px;
+        width: 100%;
+        min-height: 554px;
+        height: 100%;
+        background-image: url(/img/Фон-как-работает-платформа.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .platform__items {
+        padding-top: 20px;
+    }
+
+    .platform__single-color {
+        font-size: 37.7px;
+    }
+
+    .platform__gradient-text {
+        font-size: 37px;
+    }
+
+    .platform__container::after {
+        content: "";
+        position: absolute;
+        top: 90px;
+        left: 886px;
+        width: 352px;
+        height: 149px;
+        background-image: url(/img/Прямоугольник-2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -2;
+    }
+
+    .platform__title::after {
+        content: "";
+        position: absolute;
+        top: 291px;
+        left: 970px;
+        width: 60px;
+        height: 59px;
+        background-image: url(/img/Прямоугольник-1.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    .platform__container::before {
+        content: "";
+        position: absolute;
+        top: 290px;
+        right: 1079px;
+        width: 252px;
+        height: 240px;
+        background-image: url(/img/Прямоугольник-3.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        z-index: -1;
+    }
+
+    .platform__item-video::before {
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: 1px;
+        max-width: 1023px;
+        width: 100%;
+        min-height: 385px;
+        background-color: #ffffff;
+        border-radius: 30px;
+        border: none;
+        z-index: -1;
+    }
+
+    .platform__item-video {
+        position: relative;
+        margin-top: 50px;
+        padding: 93px 471px 261px 491px;
+        border-radius: 30px;
+        background-image: url(/img/Видео.png);
+        background-size: 900px 335px;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    /*восьмая*/
+
+    .reviews__container {
+        max-width: 1348px;
+        width: 100%;
+        min-height: 437px;
+        height: 100%;
+        background-image: url(/img/Фон-отзывы.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+    }
+
+    .reviews__title {
+        font-size: 37.7px;
+    }
+
+    .reviews__subtitle {
+        font-size: 20px;
+    }
+
+    .reviews__text {
+       font-size: 16px;
+    }
+
+    .reviews__block1 {
+        padding-top: 25px;
+        margin-left: 127px;
+        margin-right: 129px;
+    }
+
+    .reviews__arrow_right {
+        transform: translate(0px, 0px);
+        margin-left: 0px;
+        padding: 10px 20px 10px 20px;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    .review__image-right {
+        transform: translate(0px, 0px);
+        max-width: 20px;
+        min-height: 20px;
+        height: auto;
+        margin-right: 0px;
+    }
+
+    .review__arrow-left {
+        margin-right: 0px;
+        transform: translate(0px, 0px);
+        padding: 10px 20px 10px 20px;
+        background-color: #ffffff;
+        border: none;
+        border-radius: 12px;
+        cursor: pointer;
+    }
+
+    .review__image-left {
+        max-width: 20px;
+        min-height: 20px;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .review__block {
+        margin: 0 28px;
+        gap: 40px;
+    }
+
+    .reviews__block2 {
+        padding: 25px 34px 25px 67px;
+    }
+
+    /*девятая*/
+
+    .team__container {
+        position: relative;
+        max-width: 1348px;
+        width: 100%;
+        min-height: 472px;
+        height: 100%;
+        background-image: url(/img/Фон-вакансии.png);
+        background-size: contain;
+        background-position: top;
+        background-repeat: no-repeat;
+        z-index: 1;
+    }
+
+    .team__title {
+        font-size: 37.7px;
+    }
+
+    .team__items-block {
+    margin-left: 74px;
+    }
+
+    .team__items-block {
+        max-width: 465px;
+        width: 100%;
+    }
+
+    .team__content {
+        padding-top: 110px;
+    }
+
+    .team__gradient-line {
+        width: 465px;
+    }
+
+    .team__container::after {
+        content: "";
+        position: absolute;
+        top: 110px;
+        left: 39px;
+        max-width: 554px;
+        width: 100%;
+    }
+
+    /*десятая*/
+
+    .footer__container {
+        max-width: 1348px;
+        min-height: 476px;
+        background-size: 100% 420px;
+        background-position: top;
+    }
+
+    .footer__content {
+        padding-top: 122px;
+    }
+
+    .footer__strong {
+        font-size: 18px;
+    }
+
+    .basement {
+        font-size: 18px;
+    }
+
+    .link-text {
+        font-size: 15px;
+    }
+    .list-one {
+        margin-right: 81px;
+    }
+
+    .list-two {
+        margin-right: 70px;
+    }
+
+    .list-three {
+        margin-right: 57px;
+    }
+
+    .footer-item-tel {
+        margin-right: 90px;
+    }
+
+    .footer-item-mail {
+        margin-right: 88px;
+    }
+
+    .footer-24 {
+        margin-right: 42px;
+    }
+
+    .footer-social-rub {
+        margin-right: 100px;
+    }
+
+    .footer__btn {
+        font-size: 20px;
+    }
+
+    .footer__lower {
+        margin: 15px 0px 15px 0px;
+    }
+
+    .footer__items-lower {
+        border-radius: 22px;
+    }
+
+    .footer__content {
+        margin-bottom: 14px;
+    }
+
+    .footer__container::before {
+        top: 67%;
+        left: 86%;
+    }
+
+    .footer__container::after {
+        top: 38%;
+        left: 57%;
+        max-width: 449px;
+        width: 100%;
+        min-height: 285px;
+        transform: translate(38%, -50%);
+        z-index: 1;
+        overflow-x: hidden;
+    }
+}

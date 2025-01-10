@@ -1,5 +1,5 @@
 .social {
-    margin-bottom: 56px;
+    margin-bottom: 81px;
 }
 
 .social__container {
@@ -8,7 +8,7 @@
     min-height: 359px;
     height: auto;
     background-image: url(/img/Фон-Мы-есть.png);
-    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
     background-position: center; /* Расположение изображения по центру контейнера */
     background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
 }
@@ -263,4 +263,8 @@
     background-repeat: no-repeat; /* Убираем повторение изображения */
     z-index: 9999; /* Устанавливаем иконку поверх всех слоев */
     pointer-events: none; /* Делаем иконку некликабельной */
+}
+
+.social {
+    transform: translate(0px, 13px);
 }

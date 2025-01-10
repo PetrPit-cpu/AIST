@@ -90,15 +90,13 @@
     height: auto;
     background-color: #ffffff;
     border-radius: 30px;
+    gap: 10px;
 }
 
 .value__form {
-    padding: 43px 58px;
-}
-
-
-.value__form {
+    margin-bottom: 28px;
     flex-direction: column;
+    padding: 43px 58px 0px 58px;
 }
 
 .value__name {
@@ -180,10 +178,100 @@
     width: 100%;
 }
 
+.value__gray-line {
+    margin-bottom: 25px;
+    margin-left: 56px;
+    max-width: 732px;
+    width: 100%;
+    height: 2px;
+    background-color: #919191;
+}
 
-/*1653
+.value__results {
+    letter-spacing: -0.7px;
+    padding-left: 56px;
+    color: #0d4cf3;
+    font-weight: 700;
+    font-size: 19px;
+}
 
+.value__text-bet-intense {
+    color: #ff1111;
+    font-weight: 700;
+    font-size: 18px;
+}
 
-/*1703*996
+.value__text-ordinary {
+    color: #ff1111;
+    font-weight: 500;
+    font-size: 18px;
+}
 
-d9e9ef - d9e9ef*/
+.value__text-bet,
+.value__text-bet-2,
+.value__text-bet-3 {
+    padding-left: 56px;
+    color: #0d4cf3;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.value__text-bet {
+    margin-bottom: 21px;
+}
+
+.value__text-bet-2 {
+    margin-bottom: 19px;
+}
+
+.value__text-bet-3 {
+    margin-bottom: 68px;
+}
+
+.value__text-name {
+    margin-bottom: 13px;
+}
+
+/*карта*/
+
+.value__maps-item-2 {
+    margin-top: 43px;
+    max-width: 754px;
+    width: 100%;
+    min-height: 556px;
+    height: auto;
+    overflow: hidden;
+}
+
+.value__yandex-map {
+    border-radius: 30px;
+    border: 1px solid #919191;
+    max-width: 752px;
+    width: 100%;
+    min-height: 556px;
+    height: auto;
+}
+
+.value__btn {
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    max-width: 436px;
+    min-height: 63px;
+    padding: 10px 51px;
+    background-color: #0d4cf3;
+    color: #ffffff;
+    border-radius: 20px;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: 0 auto;
+    /* padding: 0 107px; */
+    max-width: 677px;
+    width: 100%;
+    transform: translate(3px, -27px);
+}
+
+.value {
+    margin-bottom: 99px;
+}

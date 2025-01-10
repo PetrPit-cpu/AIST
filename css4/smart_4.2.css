@@ -1,0 +1,120 @@
+.smart__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 930px;
+    height: auto;
+    background-image: url(/img-4/Возможности-с-ПК.png);
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.smart__text-1,
+.smart__text-2,
+.smart__wise-text-1,
+.smart__wise-text-2,
+.smart__text-4,
+.smart__text-5 {
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.smart__wise-text-1 {
+    padding: 30px 20px 30px 20px;
+}
+
+.smart__wise-text-2 {
+    padding: 29px 100px 30px 100px;
+}
+
+.smart__text-1 {
+    padding: 45px 0 42px 0;
+}
+
+.smart__text-2 {
+    padding: 31px 25px 28px 25px;
+}
+
+.smart__list {
+    gap: 135px;
+    padding: 72px 0 0 0;
+    margin: 0 229px 0 210px;
+    justify-content: center
+}
+
+.smart__list-2 {
+    flex-direction: row;
+    gap: 592px;
+    padding: 61px 0 0 0;
+    margin: 0 54px 0 80px;
+}
+
+.smart__list-3 {
+    flex-direction: row;
+    gap: 605px;
+    padding: 61px 0 0 0;
+    margin: 0 54px 0 67px;
+}
+
+.smart__list-4 {
+    flex-direction: row;
+    gap: 605px;
+    padding: 61px 0 0 0;
+    margin: 0 31px 0 67px;
+}
+
+.smart__text-4 {
+    padding: 31px 25px 28px 25px;
+}
+
+.smart__text-5 {
+    padding: 44px 0;
+}
+
+.smart__item-4 {
+    max-width: 796px;
+    width: 100%;
+    min-height: 115px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: none;
+}
+
+.smart__item,
+.smart__item-2,
+.smart__item-3 {
+    max-width: 541px;
+    width: 100%;
+    min-height: 115px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: none;
+}
+
+.smart__item-5 {
+    max-width: 541px;
+    width: 100%;
+    min-height: 115px;
+    height: auto;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: none;
+}
+
+.smart__block-list-4 {
+    justify-content: center;
+    padding: 28px 0 0 0;
+}
+
+.smart__block-list-1,
+.smart__block-list-2,
+.smart__block-list-3 {
+    justify-content: center;
+}
+
+.smart {
+    margin-bottom: 145px;
+}

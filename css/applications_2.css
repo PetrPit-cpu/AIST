@@ -1,8 +1,7 @@
 /*заявки*/
 .applications {
-    margin-bottom: 56px;
+    margin-bottom: 70px;
 }
-
 
 .applications__container {
     max-width: 1808px;
@@ -12,33 +11,72 @@
     position: relative; /* Позволяет псевдоэлементу позиционироваться относительно контейнера */
     min-height: 743px;
     background-image: url(/img/ПК-Заявки-на-перевозки-ФОН.png);
-    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
     background-position: center; /* Расположение изображения по центру контейнера */
     background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
 }
 
-.applications__container::after {
-    content: ""; /* Создаем пустой контент для псевдоэлемента */
-    position: absolute; /* Позиционирование относительно родителя */
-    top: 50%; /* Позиция сверху - центруем по вертикали */
-    left: 50%; /* Позиция слева - центруем по горизонтали */
-    width: 505px; /* Ширина наложенного изображения */
-    height: 360px; /* Высота наложенного изображения */
-    background-image: url(/img/Фура-в-полете.png); /* Изображение, которое будет наложено */
-    background-size: contain; /* Масштабируем наложенное изображение */
-    background-position: left; /* Центрируем наложенное изображение */
-    background-repeat: no-repeat; /* Запрет на повторение наложенного изображения */
-    transform: translate(-180%, 5%); /* Центрируем изображение по осям X и Y */
-    z-index: 1; /* Убедитесь, что наложенное изображение выше фонового */
+.applications__button-background {
+    padding: 18px 18px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    position: absolute;
+    bottom: 100px;
+    left: 100px;
+    transform: translate(121%, 43%);
+}
+
+.applications__pin {
+    padding: 10px 10px;
+    background-color: #0d4cf3;
+    border-radius: 20px;
+}
+
+.applications__button {
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    border: 1px solid #ffffff;
+    background-color: #0d4cf3;
+    border-radius: 12px;
+    color: #ffffff;
+    cursor: pointer;
+    gap: 34px;
+    padding: 7px 32px 7px 88px;
+    z-index: 2;
+}
+
+.applications__button::before {
+    content: ""; /* Псевдоэлемент должен иметь контент */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    bottom: -42px; /* Позиция сверху */
+    left: -657px; /* Позиция слева */
+    max-width: 505px; /* Ширина совпадает с шириной родительского элемента */
+    width: 100%;
+    min-height: 360px; /* Высота совпадает с высотой родительского элемента */
+    height: auto;
+    background-image: url(/img/Фура-в-полете.png); /* Накладываемое изображение */
+    background-position: center; /* Центрируем накладываемое изображение */
+    background-repeat: no-repeat; /* Запрещаем повторение тени */
+    pointer-events: none; /* Позволяет щелкать по элементам под тенью */
+    z-index: -2;
+}
+
+.applications__line-1 {
+    max-width: 663px;
+    width: 100%;
+    min-height: 2px;
+    background: #0d4cf3;
 }
 
 .applications__title {
-    margin: 20px 0 0px 0px;
+    margin: 13px 0 0px -2px;
     font-weight: 700; /* Жирный текст */
     font-size: 50.7px; /* Размер текста */
-    background: linear-gradient(to right, #f67109, #0d4cf3); /* Градиент от #f67109 к #0d4cf3 */
-    -webkit-background-clip: text; /* Клипирует фон по форме текста */
-    color: transparent; /* Делаем текст прозрачным */
+    color:  #0d4cf3;
+    letter-spacing: -0.1px;
 }
 
 .applications__title-text {
@@ -54,13 +92,12 @@
 
 .applications__scoreboard {
     position: relative; /* Устанавливаем позиционирование для родительского элемента */
-    display: block;
-    margin: auto;
+    margin: 3px 213px 106px;
     max-width: 1382px;
     width: 100%;
     min-height: 477px;
     height: auto;
-    background-image: url(/img/Фон_табло.png); /* Фоновое изображение */
+    background-image: url(/img-2/Фон-заявки-без-обводки.png);/* Фоновое изображение */
     background-size: contain; /* Обеспечиваем, что изображение всегда видно */
     background-position: center; /* Центрируем фоновое изображение */
     background-repeat: no-repeat; /* Запрещаем повторение фонового изображения */
@@ -69,11 +106,24 @@
 .applications__scoreboard::after {
     content: ""; /* Псевдоэлемент должен иметь контент */
     position: absolute; /* Абсолютное позиционирование для наложения */
-    top: 30px; /* Позиция сверху */
+    top: 73px; /* Позиция сверху */
     left: 0; /* Позиция слева */
     width: 100%; /* Ширина совпадает с шириной родительского элемента */
     height: 100%; /* Высота совпадает с высотой родительского элемента */
-    background-image: url(/img/Тень.png); /* Накладываемое изображение */
+    background-image: url(/img-2/Тень.png); /* Накладываемое изображение */
+    background-position: center; /* Центрируем накладываемое изображение */
+    background-repeat: no-repeat; /* Запрещаем повторение тени */
+    pointer-events: none; /* Позволяет щелкать по элементам под тенью */
+}
+
+.applications__scoreboard::before {
+    content: ""; /* Псевдоэлемент должен иметь контент */
+    position: absolute; /* Абсолютное позиционирование для наложения */
+    top: 0; /* Позиция сверху */
+    left: 0; /* Позиция слева */
+    width: 100%; /* Ширина совпадает с шириной родительского элемента */
+    height: 100%; /* Высота совпадает с высотой родительского элемента */
+    background-image: url(/img-2/Кнопка_Электронный_логист_с_текстом.png); /* Накладываемое изображение */
     background-position: center; /* Центрируем накладываемое изображение */
     background-repeat: no-repeat; /* Запрещаем повторение тени */
     pointer-events: none; /* Позволяет щелкать по элементам под тенью */
@@ -81,9 +131,45 @@
 
 /*список №1*/
 
+.applications__layer {
+    position: relative;
+    z-index: 2;
+}
+
+.applications__layer::after {
+    content: "";
+    position: absolute;
+    top: -13px;
+    left: 9px;
+    max-width: 1364px;
+    width: 100%;
+    min-height: 192px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    z-index: -1;
+}
+
+.applications__layer-1 {
+    position: relative;
+    z-index: 0;
+}
+
+.applications__layer-1::after {
+    content: "";
+    position: absolute;
+    top: -11px;
+    left: 9px;
+    max-width: 1364px;
+    width: 100%;
+    min-height: 192px;
+    border-radius: 24px;
+    z-index: -2;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 1) 70%, rgba(255, 255, 255, 0)); /* Градиент от 100% белого сверху к прозрачному на пути к 70% */
+}
+
 .applications__block-1 {
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 23px;
+    margin-left: 38px;
 }
 
 .applications__items-1 {
@@ -91,23 +177,23 @@
 }
 
 .applications__items-1:nth-child(1) {
-    margin-right: 149px; /* Отступ справа для первого элемента */
+    margin-right: 48px;
 }
 
 .applications__items-1:nth-child(2) {
-    margin-right: 81px; /* Отступ справа для второго элемента */
+    margin-right: 41px;
 }
 
 .applications__items-1:nth-child(3) {
-    margin-right: 110px; /* Отступ справа для третьего элемента */
+    margin-right: 82px;
 }
 
 .applications__items-1:nth-child(4) {
-    margin-right: 95px; /* Отступ справа для четвертого элемента */
+    margin-right: 58px;
 }
 
 .applications__items-1:nth-child(5) {
-    margin-right: 85px; /* Отступ справа для четвертого элемента */
+    margin-right: 71px;
 }
 
 
@@ -131,16 +217,26 @@
 /*сплошная линия*/
 
 .applications__line {
-    width: 1360px; /* Ширина линии */
-    height: 1px; /* Высота линии */
+    max-width: 1360px; /* Ширина линии */
+    width: 100%;
+    min-height: 1px; /* Высота линии */
     background-color: #353b4150; /* Цвет линии (черный) */
-    margin: 5px 11px; /* Отступы сверху и снизу, если нужно */
+    margin: 14px 11px 5px 11px;
 }
+
+.applications__line-2 {
+    max-width: 1360px;
+    width: 100%;
+    min-height: 1px;
+    background-color: #353b4150;
+    margin: 10px 11px 5px 11px;
+}
+
 
 /*список №2*/
 .applications__block-2 {
-    margin-top: 15px;
-    margin-left: 40px;
+    margin-top: 12px;
+    margin-left: 37px;
     justify-content: flex-start;
 }
 
@@ -153,23 +249,44 @@
 }
 
 .applications__items-2:nth-child(1) {
-    margin-right: 249px; /* Отступ справа для первого элемента */
+    margin-right: 128px;
 }
 
 .applications__items-2:nth-child(2) {
-    margin-right: 103px; /* Отступ справа для второго элемента */
+    margin-right: 65px;
 }
 
 .applications__items-2:nth-child(3) {
-    margin-right: 160px; /* Отступ справа для третьего элемента */
+    margin-right: 75px;
 }
 
 .applications__items-2:nth-child(4) {
-    margin-right: 90px; /* Отступ справа для четвертого элемента */
+    margin-right: 70px;
+}
+
+.applications-2-tons {
+    margin-top: 3px;
+}
+
+.tons {
+    margin-top: 3px;
+    font-size: 20px;
+}
+
+.voronezh {
+    letter-spacing: 0.4px;
+}
+
+.description-district {
+    letter-spacing: 0.4px;
+}
+
+.applications-holding {
+    letter-spacing: 1.4px;
 }
 
 .applications__item-2 {
-    font-size: 11.52px;
+    font-size: 16px;
 }
 
 .applications__class {
@@ -180,18 +297,22 @@
     justify-content: center;
 }
 
+.limit {
+    margin-top: 9px;
+}
+
 .applications-2 {
     margin-top: 5px;
 }
 
 .applications__btn-element {
-    margin-top: 5px;
+    margin-top: 12px;
 }
 /*кнопка*/
 
 .applications__btn {
-    font-size: 11.52px;
-    padding: 12px 60px;
+    font-size: 17px;
+    padding: 12px 66px 12px 55px;
     color: #ffffff;
     background-color: #0d4cf3;
     border: none;
@@ -202,8 +323,8 @@
 /*список №3*/
 
 .applications__block-3 {
-    margin-top: 85px;
-    margin-left: 40px;
+    margin-top: 49px;
+    margin-left: 38px;
 }
 
 .applications__items-3 {
@@ -216,7 +337,7 @@
 }
 
 .item-3 {
-    font-size: 11.52px;
+    font-size: 16px;
 }
 
 .bet {
@@ -224,32 +345,79 @@
 }
 
 .applications__items-3:nth-child(1) {
-    margin-right: 149px; /* Отступ справа для первого элемента */
+    margin-right: 47px;
 }
 
 .applications__items-3:nth-child(2) {
-    margin-right: 92px; /* Отступ справа для второго элемента */
+    margin-right: 50px;
 }
 
 .applications__items-3:nth-child(3) {
-    margin-right: 93px; /* Отступ справа для третьего элемента */
+    margin-right: 53px;
 }
 
 .applications__items-3:nth-child(4) {
-    margin-right: 122px; /* Отступ справа для четвертого элемента */
+    margin-right: 89px;
 }
 
 .applications__items-3:nth-child(5) {
-    margin-right: 85px; /* Отступ справа для четвертого элемента */
+    margin-right: 72px;
+}
+
+.description-town {
+    letter-spacing: 0.5px;
+}
+
+.item-3-area {
+    letter-spacing: -0.2px;
+}
+
+.volume {
+    letter-spacing: 0.3px;
+}
+
+.from-where {
+    letter-spacing: -0.3px;
+}
+
+.item-3-distric {
+    letter-spacing: 0.5px;
+}
+
+.applications__description-3 {
+    font-size: 20px;
+    margin-top: 2px;
+}
+
+.applications__description-4 {
+    font-size: 20px;
+    margin-top: 4px;
 }
 
 .applications__description {
-    margin-top: 5px;
+    font-size: 20px;
+    margin-top: 3px;
 }
 
 .cost {
-    margin-top: 5px;
+    margin-top: 2px;
     flex-direction: column;
+}
+
+.cost-2 {
+    transform: translate(3px, 4px);
+    margin-top: -4px;
+    flex-direction: column;
+}
+
+.applications__nds {
+    font-size: 15px;
+    color: #0d4cf3;
+}
+
+.applications__nonds {
+    color: #19cd2e;
+    font-size: 15px;
 }
 
 .description__green {
@@ -262,9 +430,13 @@
 
 /*список №4*/
 
+.applications-limited-4 {
+    margin-top: 9px;
+}
+
 .applications__block-4 {
-    margin-top: 15px;
-    margin-left: 40px;
+    margin-top: 13px;
+    margin-left: 38px;
     justify-content: flex-start;
 }
 
@@ -277,23 +449,35 @@
 }
 
 .applications__items-4:nth-child(1) {
-    margin-right: 249px; /* Отступ справа для первого элемента */
+    margin-right: 132px;
 }
 
 .applications__items-4:nth-child(2) {
-    margin-right: 103px; /* Отступ справа для второго элемента */
+    margin-right: 68px;
 }
 
 .applications__items-4:nth-child(3) {
-    margin-right: 243px; /* Отступ справа для третьего элемента */
+    margin-right: 203px;
 }
 
 .applications__items-4:nth-child(4) {
-    margin-right: 90px; /* Отступ справа для четвертого элемента */
+    margin-right: 74px;
+}
+
+.tons-4 {
+    font-size: 20px;
+}
+
+.applications-2-tons {
+    margin-top: 3px;
+}
+
+.resurse {
+    letter-spacing: 1.5px;
 }
 
 .applications__item-4 {
-    font-size: 11.52px;
+    font-size: 15.6px;
 }
 
 .applications__class {
@@ -305,9 +489,5 @@
 }
 
 .applications-4 {
-    margin-top: 5px;
-}
-
-.applications__btn-element {
     margin-top: 5px;
 }

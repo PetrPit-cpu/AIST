@@ -7,7 +7,7 @@
     min-height: 743px;
     height: 100%;
     background-image: url(/img/Фон-как-работает-платформа.png);
-    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
     background-position: center; /* Расположение изображения по центру контейнера */
     background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
 }
@@ -57,7 +57,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    padding: 20px 20px;
+    padding: 23px 32px;
     border-radius: 25px;
     background-color: #ffffff;
 }
@@ -80,19 +80,32 @@
     align-content: center;
     align-items: center;
     justify-content: center;
-    padding-top: 53px;
+    padding-top: 40px;
 }
 
 .platform__item-video {
     position: relative;
     margin-top: 50px;
-    padding: 250px 535px;
+    padding: 239px 552px 253px 547px;
     border-radius: 30px;
-    background-color: #ffffff;
     background-image: url('/img/Видео.png'); /* Путь к изображению */
     background-size: 95%;
     background-position: center;
     background-repeat: no-repeat; /* Не повторять изображение */
+}
+
+.platform__item-video::before {
+    content: "";
+    position: absolute;
+    top: -15px;
+    left: 1px;
+    max-width: 1095px;
+    width: 100%;
+    min-height: 521px;
+    background-color: #ffffff;
+    border-radius: 30px;
+    border: none;
+    z-index: -1;
 }
 
 .platform__item-video::after {
@@ -110,7 +123,7 @@
 
 
 .platform {
-    margin-bottom: 56px;
+    margin-bottom: 71px;
 }
 
 

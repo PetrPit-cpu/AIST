@@ -1,0 +1,196 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    min-width: 320px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    background-color: #ffffff;
+}
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    display: block;
+    margin: 0 auto;
+    max-width: 1920px;
+    height: auto;
+}
+
+.header {
+    margin-top: 52px;
+    margin-bottom: 90px;
+}
+
+.header__container {
+    position: relative;
+    max-width: 1808px;
+    width: 100%;
+    min-height: 740px;
+    height: auto;
+    background-image: url(/img-4/Фон-Электронный-логист-Главная.png);
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.header__hat {
+    padding: 25px 27px 25px 27px;
+    max-width: 1754px;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 164px;
+}
+
+.header__info {
+    border: none;
+    padding: 7px 32px 11px 38px;
+    align-items: center;
+    background-color: #0d4cf3;
+    color: #ffffff;
+    border-radius: 25px;
+}
+
+.header__svg-1 {
+    max-width: 40px;
+    min-height: 40px;
+}
+
+.info-text_1 {
+    margin-right: 52px;
+}
+
+.info-text_2 {
+    margin-right: 17px;
+}
+
+.header__text-link {
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.header__btn-register {
+    margin-right: 36px;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    padding: 9px 27px 9px 26px;
+    border: 1px solid #ffffff;
+    background-color: #0d4cf3;
+    border-radius: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.header__actions {
+    display: flex;
+    justify-content: center;
+    border: none;
+    padding: 10px 15px 8px 13px;
+    align-items: center;
+    background-color: #0d4cf3;
+    border-radius: 20px;
+}
+
+.header__btn {
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    padding: 8px 33px 8px 34px;
+    border: none;
+    background-color: #ffffff;
+    border-radius: 10px;
+    color: #0d4cf3;
+    cursor: pointer;
+}
+
+.header__title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 50.7px;
+    color: #0d4cf3;
+    padding-left: 82px;
+}
+
+/**/
+
+.logistician__items-block {
+    margin-top: 81px;
+    max-width: 778px;
+    height: auto;
+    flex-direction: column;
+    margin-left: 45px;
+}
+
+.logistician__item-111 {
+    padding: 33px 1px 39px 39px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    max-width: 738px;
+    width: 100%;
+    height: auto;
+}
+
+.logistician__text-1 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-bottom: 23px;
+}
+
+.logistician__gradient-line {
+    max-width: 693px;
+    min-height: 2px;
+    background: linear-gradient(to right, #0d4cf3, #f67109);
+}
+
+.logistician__text-2 {
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 17px;
+}
+
+.logistician__item-222 {
+    display: block;
+    margin: 0 auto;
+    max-width: 672px;
+    width: 100%;
+    border: none;
+    padding: 10px 5px;
+    background-color: #0d4cf3;
+    border-radius: 25px;
+}
+
+.logistician__btn-register {
+    max-width: 645px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    padding: 10px 40px;
+    border: 1px solid #ffffff;
+    background-color: #0d4cf3;
+    border-radius: 15px;
+    color: #ffffff;
+    cursor: pointer;
+}

@@ -1,0 +1,253 @@
+.profitably__container {
+    max-width: 1808px;
+    width: 100%;
+    min-height: 764px;
+    height: auto;
+    background-image: url(/img-3/Приемущества-фон.png);
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-position: center; /* Расположение изображения по центру контейнера */
+    background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+}
+
+.profitably__title-gradient {
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 50.7px;
+    background: linear-gradient(to right, #0d4cf3, #f67109);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.profitably {
+    margin: 0 45px;
+}
+
+.profitably__title {
+    padding-bottom: 33px;
+    display: flex;
+    margin: 0;
+}
+
+/*карточки*/
+
+.profitably__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 28px;
+    padding: 25px;
+    max-width: 1808px;
+}
+
+.profitably-item-1 {
+    border-radius: 30px;
+    border: 1px solid #ffffff;
+    flex: 1 0 565px;
+    min-width: 565px;
+    min-height: 339px;
+    height: auto;
+}
+
+.profitably-1,
+.profitably-5,
+.profitably-6 {
+    position: relative;
+    z-index: 2;
+}
+
+.profitably-1::before {
+    content: "";
+    position: absolute;
+    top: 73px;
+    left: -12px;
+    z-index: 1;
+    max-width: 480px;
+    width: 100%;
+    min-height: 280px;
+    background-image: url(/img-3/Прямоугольник509копия.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profitably-5::before {
+    content: "";
+    position: absolute;
+    top: 238px;
+    left: 412px;
+    z-index: 1;
+    max-width: 331px;
+    width: 100%;
+    min-height: 120px;
+    background-image: url(/img-3/Прямоугольник509копия2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.profitably-6::before {
+    content: "";
+    position: absolute;
+    top: -18px;
+    left: 308px;
+    z-index: 1;
+    max-width: 273px;
+    width: 100%;
+    min-height: 233px;
+    background-image: url(/img-3/Прямоугольник509.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* 2 карточки в ряду при сужении экрана */
+/*@media screen and (max-width: 1200px) {
+    .profitably-item-1 {
+        flex: 1 0 50%;
+        min-width: calc(50% - 20px);
+    }
+}
+/* 1 карточка в ряду при дальнейшем сужении экрана */
+/*@media screen and (max-width: 800px) {
+    .profitably-item-1 {
+        flex: 1 0 100%;
+        min-width: calc(100% - 20px);
+    }
+}*/
+
+.profitably-card-1,
+.profitably-card-2{
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    background-color: #88a1ef;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 33px 6px 34px 32px;
+}
+
+.profitably-card-3 {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    background-color: #88a1ef;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 33px 11px 34px 27px;
+}
+
+.profitably-card-4 {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    background-color: #88a1ef;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 33px 19px 34px 19px;
+}
+
+.profitably-card-5 {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    background-color: #88a1ef;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 41px 17px 26px 21px;
+}
+
+.profitably-card-6 {
+    max-width: 200px;
+    width: 100%;
+    height: auto;
+    background-color: #88a1ef;
+    border-radius: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    padding: 33px 19px 34px 19px;
+}
+
+.profitably__block-3 {
+    padding-top: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.profitably__block-5 {
+    padding-top: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.profitably__block-1,
+.profitably__block-2,
+.profitably__block-4,
+.profitably__block-6 {
+    padding-top: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.profitably__img-1,
+.profitably__img-2,
+.profitably__img-6 {
+    max-width: 72px;
+    width: 100%;
+    min-height: 72px;
+}
+
+.profitably__img-3 {
+    max-width: 58px;
+    width: 100%;
+    min-height: 72px;
+}
+
+.profitably__img-4 {
+    max-width: 62px;
+    width: 100%;
+    min-height: 72px;
+}
+
+.profitably__img-5 {
+    max-width: 81px;
+    width: 100%;
+    min-height: 57px;
+}
+
+.profitably__text-1,
+.profitably__text-2,
+.profitably__text-4 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.profitably__text-3,
+.profitably__text-5,
+.profitably__text-6 {
+    padding: 0 11px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    color:#ffffff;
+}
+
+.profitably {
+    margin-bottom: 127px;
+}
+

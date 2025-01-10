@@ -1,16 +1,34 @@
 .team__container {
+    position: relative;
     max-width: 1808px;
     width: 100%;
     min-height: 631px;
     height: 100%;
     background-image: url(/img/Фон-вакансии.png);
-    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
     background-position: center; /* Расположение изображения по центру контейнера */
     background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+    z-index: 1;
+}
+
+.team__container::after {
+    content: "";
+    position: absolute;
+    top: 147px;
+    left: 50px;
+    max-width: 713px;
+    width: 100%;
+    min-height: 398px;
+    background-image: url(/img/Подложка-на-фон-Вакансии-под-плашку.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: -2;
 }
 
 .team__title {
-    margin-bottom: 30px;
+    margin: 0;
+    padding-bottom: 24px;
     font-weight: 700; /* Жирный текст */
     font-size: 50.7px; /* Размер текста */
     background: linear-gradient(to right, #0d4cf3, #f67109); /* Градиент от #f67109 к #0d4cf3 */
@@ -25,7 +43,7 @@
 }
 
 .team__items-block {
-    padding: 40px 20px;
+    padding: 59px 20px 50px 20px;
     border-radius: 25px;
     background-color: #ffffff;
     width: 627px;
@@ -38,7 +56,6 @@
     max-width: 565px;
     display: block;
     margin: 0 auto;
-
 }
 
 .team__text-1 {
@@ -71,7 +88,8 @@
 }
 
 .team__btn-register {
-    max-width: 425px;
+    max-width: 434px;
+    min-height: 62px;
     width: 100%;
     display: block;
     margin: 0 auto;
@@ -87,5 +105,5 @@
 }
 
 .team {
-    margin-bottom: 56px;
+    margin-bottom: 71px;
 }

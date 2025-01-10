@@ -1,0 +1,170 @@
+.getting__started-element-1 {
+    max-width: 1660px;
+    width: 100%;
+    min-height: 70px;
+    height: auto;
+    background-color: #b0bfe8;
+    border-radius: 30px;
+    margin-bottom: 28px;
+}
+
+.getting__started__container {
+    margin: 0 41px 0 47px;
+}
+
+.getting__started-element-2 {
+    max-width: 1651px;
+    width: 100%;
+    min-height: 70px;
+    height: auto;
+    background-color: #b0bfe8;
+    border-radius: 30px;
+    margin: 0 0 0 157px;
+}
+
+.getting__started-text-1 {
+    font-weight: 700;
+    font-size: 50.7px;
+    color: #0d4cf3;
+    max-width: 870px;
+    display: block;
+    margin: 0 auto;
+    padding: 6px 1px 1px 1px;
+    margin: 0 513px 0 430px;
+    position: relative;
+    z-index: 2;
+}
+
+.getting__24 {
+    font-weight: 700;
+    font-size: 50.7px;
+    color: #f67109;
+}
+
+.getting__started-text-1::after {
+    content: "ПОДКЛЮЧИСЬ К АИСТ24"; /* Замените на нужный текст */
+    position: absolute;
+    top: 0;
+    left: 7px;
+    transform: translate(0.3%, 11%);
+    font-weight: 700;
+    font-size: 50.7px;
+    color: #ffffff;
+    z-index: -1;
+}
+
+.getting__started-block {
+    margin-bottom: 30px;
+}
+
+.getting__started-item-1 {
+    border: 1px solid #f67109;
+    padding: 35px 40px 35px 40px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 33px;
+    background-image: url('/img-3/01.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.getting__started-item-2 {
+    border: 1px solid #f67109;
+    padding: 33px 40px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 33px;
+    background-image: url('/img-3/02.png');
+    background-size: cover;
+    background-position: center;
+}
+
+.getting__started-item-3 {
+    border: 1px solid #f67109;
+    padding: 31px 40px;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 33px;
+    background-image: url('/img-3/03.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.started-link-2 {
+    font-size: 22px;
+    border-radius: 18px;
+    padding: 18px 42px 18px 44px;
+    background-color: blue;
+}
+
+.getting__started-img-1,
+.getting__started-img-2 {
+    border: 1px solid #0d4cf3;
+    border-radius: 17px;
+    max-width: 188px;
+    min-height: 50px;
+}
+
+.getting__started-text-link {
+    font-weight: 700;
+    color: #353b41;
+    font-size: 24.1px;
+}
+
+.started-text-1 {
+    padding: 0 0 0 56px;
+    margin-right: auto;
+}
+
+.getting__started-block-img {
+    gap: 30px;
+    margin-right: 69px;
+}
+
+.getting__started-link {
+    margin-right: 69px;
+}
+
+.getting__started-list {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.getting__good {
+    margin-right: 67px;
+    padding: 9px 18px 9px 17px;
+    background-color: #0d4cf3;
+    border-radius: 18px;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+}
+
+.getting__look {
+    padding: 8px 98px 8px 65px;
+    background-color: #0d4cf3;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    gap: 20px;
+}
+
+.started-link-3 {
+    padding: 19px 66px 19px 63px;
+    background-color: #0d4cf3;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 22px;
+    font-style: normal;
+    position: relative;
+    overflow: hidden;
+}
+
+.getting__started {
+    margin-bottom: 104px;
+}

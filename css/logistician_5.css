@@ -1,5 +1,5 @@
 .logistician {
-    margin-bottom: 56px;
+    margin-bottom: 71px;
 }
 
 .logistician__container {
@@ -8,7 +8,7 @@
     min-height: 740px;
     height: auto;
     background-image: url(/img/Фон-Электронный-логист.png);
-    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
     background-position: center; /* Расположение изображения по центру контейнера */
     background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
 }
@@ -26,13 +26,14 @@
 .logistician__text-1 {
     font-weight: 500;
     font-size: 19px;
-    margin-bottom: 30px;
+    margin-bottom: 21px;
 }
 
 .logistician__text-2 {
     font-weight: 500;
     font-size: 18px;
-    margin-top: 30px;
+    margin-top: 22px;
+    letter-spacing: 0.2px;
 }
 
 .logistician__gradient-line {
@@ -52,12 +53,14 @@
 .logistician__item-111 {
     display: block;
     margin: 0 auto;
-    padding: 20px 20px;
+    padding: 29px 20px 29px 22px;
+    letter-spacing: 0.2px;
     border-radius: 25px;
     background-color: #ffffff;
     width: 680px;
     height: 100%;
     margin-bottom: 327px;
+    letter-spacing: -0.5px;
 }
 
 .logistician__item-222 {

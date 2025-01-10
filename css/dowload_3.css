@@ -6,9 +6,10 @@
     min-height: 763px;
     height: auto;
     background-image: url(/img/Фон-скачайте-приложение.png);
-    background-size: contain; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
+    background-size: cover; /* Масштабирование изображения, чтобы оно покрывало весь контейнер */
     background-position: center; /* Расположение изображения по центру контейнера */
     background-repeat: no-repeat; /* Запрет на повторение фонового изображения */
+    border-radius: 28px;
 }
 
 /*заголовок*/
@@ -23,14 +24,15 @@
 
 .dowload__content {
     max-width: 1127px;
-    padding-top: 40px;
+    /*padding-top: 40px;*/
 }
 
 .download__items-block {
-    margin-left: 350px;
-    margin-bottom: 25px;
-    padding: 20px 30px;
-    border-radius: 20px;
+    margin-left: 355px;
+    margin-top: 45px;
+    margin-bottom: -8px;
+    padding: 17px 30px 20px 24px;
+    border-radius: 29px;
     background-color: #ffffff;
     border: none;
 }
@@ -57,12 +59,12 @@
     display: flex;
     flex-direction: column;
     max-width: 1460px; /*415*/
-    margin-left: 350px;
+    margin-left: 355px;
 }
 
 .download__img-aist {
-    margin-bottom: 55px;
-    max-width: 405px;
+    margin-bottom: 56px;
+    max-width: 397px;
     height: 100%;
 }
 
@@ -109,7 +111,7 @@
 }
 
 .download__items-app-google {
-    gap: 39px;
+    gap: 34px;
     max-width: 415px;
 }
 
@@ -138,8 +140,8 @@
 }
 
 .download__iphone-1-img {
-    transform: translate(-12px, -100px);
-    margin-left: 300px;
+    transform: translate(-12px, -77px);
+    margin-left: 267px;
     max-width: 400px;
     height: auto;
 }
